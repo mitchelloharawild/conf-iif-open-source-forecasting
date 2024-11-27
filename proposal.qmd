@@ -91,7 +91,7 @@ tibble::tribble(
 
 ## Workshop format
 
-The workshop is structured to encourage discussion and idea-sharing, fostering collaboration in the development, design, and use of open-source forecasting software. A significant part of the program is reserved for discussions—both formal ones after presentations and informal ones during breaks and the reception. With a maximum of 30 participants, the workshop aims to create an intimate and collaborative setting that supports deep conversations about advancing forecasting tools.
+The workshop is structured to encourage discussion and idea-sharing, fostering collaboration in the development, design, and use of open-source forecasting software. A significant part of the program is reserved for discussions — both formal ones after presentations and informal ones during breaks and the reception. With a maximum of 30 participants, the workshop aims to create an intimate and collaborative setting that supports deep conversations about advancing forecasting tools.
 
 Core topics for the workshop include:
 
