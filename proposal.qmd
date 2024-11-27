@@ -5,23 +5,23 @@ format:
     fig-pos: 'H'
 ---
 
-In the field of forecasting, the use of open-source forecasting software has become increasingly prevalent throughout the entire forecasting workflow. These tools have played a pivotal role in democratizing access to advanced forecasting capabilities. While forecasters often switch between forecasting tools as needed, the development of these tools typically occurs in relative isolation. To improve collaboration across forecasting software, we are delighted to propose an IIF-sponsored workshop that unites developers to share and discuss the latest ideas in forecasting software. The workshop is scheduled to be held on June 26-27 2025 (immediately prior to ISF) in Beijing, China.
+In the field of forecasting, the use of open-source software has become increasingly prevalent throughout the entire workflow. These tools have played a pivotal role in making forecasting more accessable to wider audience. While forecasters often switch between different tools as needed, the development of these tools typically occurs in relative isolation. To improve collaboration between different open source forecasting software developers, we are delighted to propose an IIF-sponsored workshop that unites them to share and discuss the latest ideas in the area. The workshop is scheduled to be held on June 26-27 2025 (immediately prior to ISF) in Beijing, China.
 
 ## Revised proposal
 
 This workshop was originally proposed for 2024 but has been substantially reworked with a narrower scope to reduce costs and focus on discussion topics. This section aims to summarize these revisions, which address the feedback from the original proposal.
 
-Similar to the previous proposal, the workshop is to be held immediately prior to and near the ISF conference in Beijing (reducing travel costs and increasing invitee availability). The workshop duration has been reduced from five days to two. The two tutorial days have been completely removed as software training is adequately covered by the ISF tutorials. The final day of open problems and future work has been condensed into short talks at the end of each day. This reduced 2-day program has also refined the workshop topics (detailed below) to focus on improving forecasting software design, sharing new forecasting features, and discussing future software needs in forecasting. The program is designed to foster collaboration in forecasting software development across various tools, frameworks, and languages in use.
+Similar to the previous proposal, the workshop is to be held immediately prior to and near the ISF conference in Beijing (reducing travel costs for potential participants and making it more accessible for invitees). The workshop duration has been reduced from five days to two. The two tutorial days have been completely removed as software training is adequately covered by the ISF tutorials. The final day of open problems and future work has been condensed into short talks at the end of each day. This reduced 2-day program has also refined the workshop topics (detailed below) to focus on improving forecasting software design, sharing new features, and discussing future software needs. The program is designed to foster collaboration in forecasting software development across various tools, frameworks, and languages in use.
 
 <!-- We also considered integrating this workshop into special sessions of ISF, but [too large a session; avoid conflict in relevant developers teaching tutorials or attending other sessions; goal of comprehensive discussion from diverse users/developers] -->
 
-The expected number of participants has been reduced from 50 to a maximum of 30 participants by invitation only. Special care is being taken to ensure participation from a diverse, knowledgeable, and collaborative group. We expect roughly equal participation from academia and industry, with invitees from all career stages around the world. With the ISF conference (and this proposed workshop) being in Beijing, we invite forecasters from large Chinese technology firms, including Alibaba, Tencent, and ByteDance. We have allocated funding in the budget to support travel and accommodation for invitees who are early-career forecasters (ECFs) or members of under-represented low-SES groups within the forecasting software community.
+The expected number of participants has been reduced from 50 to 30, and by invitation only. Special care has been taken to ensure participation from a diverse, knowledgeable, and collaborative group. We expect roughly equal participation from academia and industry, with invitees from all career stages around the world. With the ISF conference (and this proposed workshop) being in Beijing, we invite forecasters from large Chinese technology firms, including Alibaba, Tencent, and ByteDance. We have allocated funding in the budget to support travel and accommodation for invitees who are early-career forecasters (ECFs) or members of under-represented low-SES groups within the forecasting software community.
 
-These changes have allowed for a significantly reduced budget, from US\$26,000 to approximately US\$12,000. This includes the elimination of workshop fees and reduced reliance on third-party sponsorship. We are requesting a maximum of US\$6,000 from the International Institute of Forecasters (IIF) to fund any expenses not covered by sponsors.
+These changes have allowed us to significantly reduce the budget, from US\$26,000 to approximately US\$12,000. This includes the elimination of workshop fees and reduced reliance on third-party sponsorship. We are requesting a maximum of US\$6,000 from the International Institute of Forecasters (IIF) to fund any expenses not covered by sponsors.
 
 The organizing committee has been restructured with clearer roles and responsibilities for each member. Mitchell O'Hara-Wild has taken the initiative of coordinating the committee and event (originally Bahman Rostami-Tabar), and Xiaoqian Wang has joined to provide local support in Beijing.
 
-An additional outcome of this workshop (beyond software contributions) could be a special issue on forecasting software in the IJF, featuring recent advancements in forecasting software methods and design. If this is of interest to the IJF, this workshop could be used to encourage submissions to the IJF for this special issue.
+An additional outcome of this workshop (beyond software contributions) could be a special issue on forecasting software in the IJF, featuring recent advancements in forecasting software methods and design. If this is of interest to the IJF, this workshop could be used to encourage submissions to the special issue.
 
 {{< pagebreak >}}
 
@@ -36,7 +36,7 @@ An additional outcome of this workshop (beyond software contributions) could be 
 
 The IIF workshop on Open Source Forecasting is a two-day event scheduled to take place immediately before the ISF 2025 conference in Beijing. The workshop will host 30 participants, selected by invitation to ensure a diverse group of professionals from academia, industry, and government. To encourage new discussions and ideas, invitees have been chosen to represent a mix of career stages, programming language expertise, and countries.
 
-The workshop will focus on recent advancements and future possibilities in open-source forecasting software. It aims to establish best practices and encourage collaboration among developers to advance the development and use of open-source tools in forecasting.
+The workshop will focus on recent advancements and potential avenues in open-source forecasting software. It aims to establish best practices and encourage collaboration among developers to advance the development and use of open-source tools in forecasting.
 
 There is no registration fee for the workshop, and travel support is available for Early Career Forecasters (ECFs) and invitees from low-SES backgrounds (by application). The likely venue for this event is Beihang University, with thanks to Yanfei Kang for helping arrange this space at no cost (as a venue sponsor). Most of the US\$12,000 workshop budget is expected to come from third-party sponsors. We are requesting a grant of up to US\$6,000 from the IIF to cover any shortfall.
 
@@ -48,7 +48,7 @@ tibble::tribble(
   ~Key, ~Value,
   "Date", "June 26-27th 2025 (Thursday-Friday before ISF2025)",
   "Location", "Haidian District, Beijing, China",
-  "Probable venue", "Beihang University",
+  "Tentative venue", "Beihang University",
   "Maximum participants", "30",
   "Total budget", "US$12,000",
   "IIF grant request", "US$6,000"
@@ -67,7 +67,7 @@ tibble::tribble(
 
 **Programme chair**
 
-* Ivan Svetunkov (Lecturer at Lancaster University, UK)
+* Ivan Svetunkov (Senior Lecturer at Lancaster University, UK)
 
 **Event coordination**
 
@@ -91,7 +91,7 @@ tibble::tribble(
 
 ## Workshop format
 
-The workshop format is designed to stimulate discussion and the sharing of ideas, leading to subsequent collaboration in the creation, design, and use of open-source forecasting software. A substantial portion of the program is dedicated to discussions, both formally after presentations and informally during breaks and at the reception. With a maximum of 30 participants, we aim to create a small, collaborative environment that encourages in-depth discussion about developing forecasting tools.
+The workshop is structured to encourage discussion and idea-sharing, fostering collaboration in the development, design, and use of open-source forecasting software. A significant part of the program is reserved for discussions—both formal ones after presentations and informal ones during breaks and the reception. With a maximum of 30 participants, the workshop aims to create an intimate and collaborative setting that supports deep conversations about advancing forecasting tools.
 
 Core topics for the workshop include:
 
@@ -100,6 +100,7 @@ Core topics for the workshop include:
 - Exploratory time series analysis (data, visualization, evaluation, etc.)
 - Future developments for forecasting software (current plans, open problems, etc.)
 - Forecasting at scale (hierarchical, big data, optimization, etc.)
+- Driving innovations in forecasting (new developments, their implementation and promotion)
 
 The program allows for 12 in-depth presentations and 8 short talks, with plentiful discussion and Q&A time.
 
@@ -133,7 +134,7 @@ The program allows for 12 in-depth presentations and 8 short talks, with plentif
 
 The revised proposal has a total budget of US\$12,000, with the majority (US\$8,000) dedicated to supporting the travel and accommodation of early-career forecasters and invitees from low-SES backgrounds (by application).
 
-The funding model for this workshop has been reworked, aiming to secure most funding from third-party sponsors rather than charging registration fees. To encourage participation from invitees, there is no registration fee for participants. Participants are expected to fund their own travel and accommodation. For those already attending the ISF, the primary additional cost of attending this workshop will be the extra accommodation.
+The funding model for this workshop focuses on securing the majority of funding from third-party sponsors rather than charging registration fees. To encourage participation from invitees, there is no registration fee for participants. Participants are expected to fund their own travel and accommodation. For those already attending the ISF, the primary additional cost of attending this workshop will be the extra accommodation.
 
 ```{r budget, echo=FALSE, fig.pos="H"}
 library(kableExtra)
@@ -156,7 +157,7 @@ Preliminary discussions with potential sponsors suggest that the majority of thi
 
 ## Potential invitees
 
-This workshop provides a unique opportunity to bring together a diverse, knowledgeable, and collaborative group of forecasting professionals. We are striving for a balance between academia and industry, focusing on engaging participants from a wide range of career stages and backgrounds. While many invitees are familiar faces at the ISF conferences, this year's ISF in Beijing presents an exciting outreach opportunity to engage forecasters from Asia, who are underrepresented in the IIF. In particular, we have invited several developers from large Chinese technology firms, including Alibaba, Tencent, and ByteDance. Diverse participation in this workshop will foster rich and varied discussions about the latest forecasting innovations.
+This workshop provides a unique opportunity to bring together a diverse, knowledgeable, and collaborative group of forecasting professionals. We are striving for a balance between academia and industry, focusing on engaging participants from a wide range of career stages and backgrounds. While many invitees are familiar faces at the ISF conferences, this year's ISF in Beijing presents an exciting outreach opportunity to engage forecasters from Asia, who are underrepresented in the IIF. In particular, we have invited several developers from large Chinese technology firms, including Alibaba, Tencent, and ByteDance. Diverse participation in this workshop will foster rich discussions about the latest forecasting innovations.
 
 We hope that this workshop will promote greater collaboration not only across different programming languages but also among developers from around the world, bridging communities that seldom interact due to language barriers. To support the attendance of underrepresented groups, we have allocated funding for the travel and accommodation of early-career forecasters (ECFs) and individuals from low-SES backgrounds, helping us build a more inclusive and global community of forecasters.
 
