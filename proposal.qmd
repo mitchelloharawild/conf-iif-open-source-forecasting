@@ -172,6 +172,7 @@ Below is a tentative invitation list:
 - Azul Garza Ramirez (Python, Industry, Software)
 - Resul Akay (R, Julia, Industry, Software)
 - Shanika Wickramasuriya (R, Academia)
+- Franz Király (Python, Industry, Software)
 - Arjun Ashok (Python, Academia, Industry, Software)
 - Han Wang (Python, Industry, Applications)
 - Haixu Wu (Python, Academia, Applications)
