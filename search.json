@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "committee.html",
+    "href": "committee.html",
+    "title": "Organizing committee",
+    "section": "",
+    "text": "General chair\n\nMitchell O’Hara-Wild (PhD student at Monash University and consultant at Nectric, Australia)\n\nProgramme chair\n\nIvan Svetunkov (Senior Lecturer at Lancaster University, UK)\n\nEvent coordination\n\nBahman Rostami-Tabar (Professor at Cardiff University, UK)\n\nLocal logistics\n\nXiaoqian Wang (Research Fellow at Monash University, Australia)\n\nInvitations and general support\n\nAzul Garza Ramirez (CTO & Co-Founder at Nixtla, Mexico)\nResul Akay (Head of Data Science at Quantics.io, Austria)\nShanika Wickramasuriya (Assistant Professor at Monash University, Australia)"
+  },
+  {
+    "objectID": "program.html",
+    "href": "program.html",
+    "title": "Program",
+    "section": "",
+    "text": "25th June 2025\n\n5:00pm - 7:00pm: Welcome reception / social event (TBC)\n\n\n\n26th June 2025 (day 1)\n\n9.00am – 10.30am: Session 1 (2x30min presentations, 2x15min discussion)\n10.30am – 11.00am: Morning tea\n11.00am – 12.30pm: Session 2 (2x30min presentations, 2x15min discussion)\n12.30pm – 1.30pm: Lunch\n1.30pm – 3.00pm: Session 3 (2x30min presentations, 2x15min discussion)\n3.00pm – 3.30pm: Afternoon tea\n3.30pm – 5.00pm: Open problems (4x20min short talks)\n\n\n\n27th June 2025 (day 2)\n\n9.00am – 10.30am: Session 1 (2x30min presentations, 2x15min discussion)\n10.30am – 11.00am: Morning tea\n11.00am – 12.30pm: Session 2 (2x30min presentations, 2x15min discussion)\n12.30pm – 1.30pm: Lunch\n1.30pm – 3.00pm: Session 3 (2x30min presentations, 2x15min discussion)\n3.00pm – 3.30pm: Afternoon tea\n3.30pm – 5.00pm: Open problems (4x20min short talks)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IIF Workshop on Open Source Forecasting",
+    "section": "",
+    "text": "Dates: June 26th-27th 2025\nVenue: TBC\nLocation: Beijing, China\nThis event is limited to 30 people, and attendance will be by invitation."
+  },
+  {
+    "objectID": "index.html#key-details",
+    "href": "index.html#key-details",
+    "title": "IIF Workshop on Open Source Forecasting",
+    "section": "",
+    "text": "Dates: June 26th-27th 2025\nVenue: TBC\nLocation: Beijing, China\nThis event is limited to 30 people, and attendance will be by invitation."
+  },
+  {
+    "objectID": "index.html#workshop-aim",
+    "href": "index.html#workshop-aim",
+    "title": "IIF Workshop on Open Source Forecasting",
+    "section": "Workshop aim",
+    "text": "Workshop aim\nThe IIF special workshop on Open Source Forecasting is a two-day event scheduled to take place immediately before the ISF 2025 conference in Beijing. The workshop will host 30 participants, selected by invitation to ensure a diverse group of professionals from academia, industry, and government. To encourage new discussions and ideas, invitees have been chosen to represent a mix of career stages, programming language expertise, and countries.\nThe workshop will focus on recent advancements and potential avenues in open-source forecasting software. It aims to establish best practices and encourage collaboration among developers to advance the development and use of open-source tools in forecasting."
+  },
+  {
+    "objectID": "index.html#workshop-topics",
+    "href": "index.html#workshop-topics",
+    "title": "IIF Workshop on Open Source Forecasting",
+    "section": "Workshop topics",
+    "text": "Workshop topics\n\nForecasting frameworks design (fable, sktime, statsforecast, etc.)\nLarge forecasting models (foundation models, neural networks, etc.)\nExploratory time series analysis (data, visualization, evaluation, etc.)\nFuture developments for forecasting software (current plans, open problems, etc.)\nForecasting at scale (hierarchical, big data, optimization, etc.)\nDriving innovations in forecasting (new developments, their implementation and promotion)"
+  },
+  {
+    "objectID": "index.html#sponsors",
+    "href": "index.html#sponsors",
+    "title": "IIF Workshop on Open Source Forecasting",
+    "section": "Sponsors",
+    "text": "Sponsors\nTBC"
+  }
+]
