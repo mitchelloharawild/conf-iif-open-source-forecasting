@@ -8,6 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - program.qmd
+      - href: committee.qmd
+        text: Committee
 
 format:
   html:
