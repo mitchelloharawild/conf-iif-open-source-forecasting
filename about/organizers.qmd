@@ -1,0 +1,39 @@
+---
+pagetitle: "Committee members"
+---
+
+:::::: grid
+::: {#organizers_banner .g-col-12 .title}
+# Committee Members
+:::
+
+::: {.g-col-6 .text_block}
+
+**General chair**
+
+-   [Mitchell O'Hara-Wild](https://github.com/mitchelloharawild) (PhD student at Monash University and consultant at Nectric, Australia)
+
+**Programme chair**
+
+-   [Ivan Svetunkov](https://github.com/config-i1) (Senior Lecturer at Lancaster University, UK)
+
+**Event coordination**
+
+-   [Bahman Rostami-Tabar](https://github.com/bahmanrostamitabar) (Professor at Cardiff University, UK)
+
+**Local logistics**
+
+-   [Xiaoqian Wang](https://github.com/xqnwang) (Research Fellow at Monash University, Australia)
+
+**Invitations and general support**
+
+-   [Azul Garza Ramirez](https://github.com/AzulGarza) (CTO & Co-Founder at Nixtla, Mexico)
+-   [Resul Akay](https://github.com/Akai01) (Head of Data Science at Quantics.io, Austria)
+-   [Shanika Wickramasuriya](https://github.com/ShanikaLW) (Assistant Professor at Monash University, Australia)
+
+:::
+
+::: g-col-6
+![](/img/marc-schulte-a2g3LM0cGFg-unsplash.jpg){.img_block width="100%"}
+:::
+::::::

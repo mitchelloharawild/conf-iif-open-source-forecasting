@@ -1,32 +1,61 @@
 ---
-title: "IIF Workshop on Open Source Forecasting"
+title: ""
+format:
+  html:
+    include-after-body:
+      - js/countdown.js
+      
+listing:
+  - id: countdown
+    template: countdown.ejs
+    contents: 
+      - datetime: 2025-06-25T19:00:00.000+08:00
+  - id: sponsors
+    template: about/sponsors/sponsors.ejs
+    contents: about/sponsors/sponsors.yml
 ---
 
-## Key details
+::::::::: grid
+::: {#banner .g-col-12}
+# IIF Workshop on Open Source Forecasting
 
-**Dates**: June 26th-27th 2025
+### 25th-27th June 2025 {style="max-width: fit-content; max-width: -moz-fit-content;"}
 
-**Venue**: TBC
+#### Beihang University | Beijing, China
+:::
 
-**Location**: Beijing, China
 
-This event is limited to 30 people, and attendance will be by invitation.
+::: {#countdown .g-col-12}
+:::
 
-## Workshop aim
+::: {.g-col-6 .text_block}
+### About the workshop
 
 The IIF special workshop on Open Source Forecasting is a two-day event scheduled to take place immediately before the ISF 2025 conference in Beijing. The workshop will host 30 participants, selected by invitation to ensure a diverse group of professionals from academia, industry, and government. To encourage new discussions and ideas, invitees have been chosen to represent a mix of career stages, programming language expertise, and countries.
 
 The workshop will focus on recent advancements and potential avenues in open-source forecasting software. It aims to establish best practices and encourage collaboration among developers to advance the development and use of open-source tools in forecasting.
 
+This event is limited to 30 people, and attendance will be by invitation.
+
 ## Workshop topics
 
-- Forecasting frameworks design (fable, sktime, statsforecast, etc.)
-- Large forecasting models (foundation models, neural networks, etc.)
-- Exploratory time series analysis (data, visualization, evaluation, etc.)
-- Future developments for forecasting software (current plans, open problems, etc.)
-- Forecasting at scale (hierarchical, big data, optimization, etc.)
-- Driving innovations in forecasting (new developments, their implementation and promotion)
+-   Forecasting frameworks design (fable, sktime, gluonts, statsforecast, etc.)
+-   Large forecasting models (foundation models, neural networks, etc.)
+-   Exploratory time series analysis (data, visualization, evaluation, etc.)
+-   Future developments for forecasting software (current plans, open problems, etc.)
+-   Forecasting at scale (hierarchical, big data, optimization, etc.)
+-   Driving innovations in forecasting (new developments, their implementation and promotion)
+:::
 
-## Sponsors
+::: {.g-col-6 .img_margin}
+![](/img/hanson-lu-_8EFj6ISA08-unsplash.jpg){.img_block}
+:::
 
-TBC
+<!-- ::: {.g-col-12 .full_text_block} -->
+<!-- ### Venue -->
+
+<!-- ::: -->
+
+::: {#sponsors .g-col-12}
+:::
+:::::::::

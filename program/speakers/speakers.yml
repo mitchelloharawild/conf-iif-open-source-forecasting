@@ -1,0 +1,19 @@
+    - name: John Doe
+      affiliation: R Consortium
+      href: https://example.com
+      thumbnail: img/user.png
+      social: 
+      - website: https://numbat.space
+      - github: https://github.com/numbats
+      # - twitter: https://twitter.com/satrdays
+      - linkedin: https://linkedin.com
+      - mastodon: https://mastodon.com
+    - name: Sarah Doe
+      affiliation: R Consortium
+      href: https://example.com
+      thumbnail: img/user.png
+      social: 
+      - website: https://numbat.space
+      - github: https://github.com/numbats
+      # - twitter: https://twitter.com/satrdays
+      # - linkedin: https://linkedin.com

@@ -2,17 +2,69 @@ project:
   type: website
 
 website:
-  title: "IIF Workshop on Open Source Forecasting"
+  title: "Open Source Forecasting"
+  favicon: img/clock.png
+  sidebar: false
+  
+  announcement: 
+    icon: megaphone-fill
+    dismissable: true
+    content: "Save the date! This workshop will run from June 25th - June 27th."
+    type: warning
+    position: below-navbar
+  
   navbar:
-    left:
+    logo: img/iif.png
+    background: light
+    pinned: false
+    right:
       - href: index.qmd
         text: Home
-      - program.qmd
-      - href: committee.qmd
-        text: Committee
+      - text: About
+        menu:
+          - text: About
+            href: about/about.qmd
+          - text: Organizing committee
+            href: about/organizers.qmd
+          - text: Sponsors
+            href: about/sponsors/
+      - text: Program
+        menu: 
+          - text: Schedule>
+            href: program/schedule/
+          # - text: Speakers
+          #   href: program/speakers/
+      # - text: Register
+      #   href: register.qmd
+      - text: Participation
+        menu: 
+          # - text: Call for submissions
+          #   href: participation/call.qmd
+          - text: Code of conduct
+            href: participation/coc.qmd
+          - text: Key dates
+            href: participation/keydates/
+          - text: Travel support
+            href: participation/support.qmd
+      - text: Contact
+        href: contact.qmd
+  page-footer: 
+    left: "An [International Institute of Forecasters](https://forecasters.org/) workshop"
+    right: 
+      - icon: globe
+        href: https://forecasters.org/
+      - icon: github
+        href: https://github.com/mitchelloharawild/conf-iif-open-source-forecasting
+      - icon: envelope
+        href: mailto:mitch.ohara-wild@monash.edu
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      light: [cosmo, css/styles.scss]
+      #dark: darkly
+    page-layout: custom
     toc: false
+
+editor: visual
+

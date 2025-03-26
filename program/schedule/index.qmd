@@ -1,0 +1,45 @@
+---
+pagetitle: "Schedule"
+---
+
+::::::: grid
+::: {#sponsors_banner .g-col-12 .title}
+# Schedule
+:::
+
+::: {.g-col-6 .text_block}
+Please note that all session times are listed below in CST (China Standard Time, GMT+8).
+
+### 25th June 2025
+
+-   6:00pm - 8:30pm: Welcome reception / social event (Vision Hotel)
+
+### 26th June 2025 (day 1)
+
+-   9.00am – 10.30am: Session 1 (2x30min presentations, 2x15min discussion)
+-   10.30am – 11.00am: Morning tea
+-   11.00am – 12.30pm: Session 2 (2x30min presentations, 2x15min discussion)
+-   12.30pm – 1.30pm: Lunch
+-   1.30pm – 3.00pm: Session 3 (2x30min presentations, 2x15min discussion)
+-   3.00pm – 3.30pm: Afternoon tea
+-   3.30pm – 5.00pm: Open problems (4x20min short talks)
+
+### 27th June 2025 (day 2)
+
+-   9.00am – 10.30am: Session 1 (2x30min presentations, 2x15min discussion)
+-   10.30am – 11.00am: Morning tea
+-   11.00am – 12.30pm: Session 2 (2x30min presentations, 2x15min discussion)
+-   12.30pm – 1.30pm: Lunch
+-   1.30pm – 3.00pm: Session 3 (2x30min presentations, 2x15min discussion)
+-   3.00pm – 3.30pm: Afternoon tea
+-   3.30pm – 5.00pm: Open problems (4x20min short talks)
+:::
+
+::: {.g-col-6 .img_margin}
+![](/img/marc-schulte-a2g3LM0cGFg-unsplash.jpg){.img_block width="99%"}
+:::
+
+<div>
+
+</div>
+:::::::

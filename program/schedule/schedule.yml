@@ -1,0 +1,39 @@
+- time: 08:30 - 08:45
+  talk: Coffee and collect name tag
+  speaker:
+
+- time: 08:45 - 09:00
+  talk: Welcome
+  speaker:
+
+- time: 09:00 - 10:00
+  talk: Keynote
+  speaker:
+
+- time: 10:00 - 10:30
+  talk: Morning tea
+  speaker:
+
+- time: 10:30 - 12:00
+  talk: Invited talks - Solution & Impact
+  speaker:
+
+- time: 12:00 - 13:00
+  talk: Lunch
+  speaker:
+
+- time: 13:00 - 14:30
+  talk: Invited talks - Software & Tooling
+  speaker:
+
+- time: 14:30 - 15:00
+  talk: Afternoon tea
+  speaker:
+
+- time: 15:00 - 16:30
+  talk: Invited talks - Research & Communication
+  speaker:
+
+- time: 16:30 - 17:00
+  talk: Closing discussion
+  speaker:

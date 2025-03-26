@@ -1,0 +1,12 @@
+    - name: International Institute of Forecasters
+      href: https://forecasters.org/
+      thumbnail: /img/iif.png
+    - name: nixtla
+      href: https://www.nixtla.io/
+      thumbnail: /img/nixtla.png
+    - name: Beihang University
+      href: https://ev.buaa.edu.cn
+      thumbnail: /img/beihang.svg
+    - name: Monash University
+      href: https://www.monash.edu
+      thumbnail: /img/monash-logo-mono.svg

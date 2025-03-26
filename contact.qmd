@@ -1,0 +1,34 @@
+---
+pagetitle: "Contact us"
+---
+
+:::::: grid
+::: {#about_banner .g-col-12 .title}
+# Contact Us
+:::
+
+::: {.g-col-6 .text_block}
+### General Inquiries
+
+For questions about the event, please email Mitchell O'Hara-Wild at [mitch.ohara-wild\@monash.edu](mailto:mitch.ohara-wild@monash.edu).
+
+### Social Media
+
+Updates to this event will be posted on:
+
+* [Bluesky](https://bsky.app/)
+* [LinkedIn](https://www.linkedin.com/)
+
+with the event hashtag: `#iifoss2025`
+
+
+### Media Inquiries
+
+Members of the press are welcome to contact us for information about the conference and interview requests.
+
+:::
+
+::: g-col-6
+![](/img/marc-schulte-a2g3LM0cGFg-unsplash.jpg){.img_block width="100%"}
+:::
+::::::

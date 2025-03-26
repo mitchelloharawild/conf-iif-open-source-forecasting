@@ -1,0 +1,47 @@
+---
+pagetitle: "Sponsorship"
+
+listing:
+  - id: sponsors
+    template: sponsors.ejs
+    contents: sponsors.yml
+---
+
+::::::: grid
+::: {#sponsors_banner .g-col-12 .title}
+# Sponsorship
+:::
+
+
+::: {#sponsorship .g-col-6 .full_text_block}
+## Sponsorship
+
+We are grateful to the sponsors of this event which have fully funded the workshop and enabled us to offer funding support for early career forecasters (ECFs) and attendees from lower-middle income countries.
+
+**Gold sponsors**
+
+* nixtla
+* International Institute of Forecasters
+
+**Venue sponsor**
+
+* Beihang University
+
+**Sponsors**
+
+* Monash University
+
+## Contact
+
+For sponsorship inquiries, please contact [mitch.ohara-wild@monash.edu](mailto:mitch.ohara-wild@monash.edu). Further sponsorship will enable us to provide more travel support for attendees.
+
+:::
+
+::: {#sponsors .g-col-6}
+:::
+
+
+<div>
+
+</div>
+:::::::

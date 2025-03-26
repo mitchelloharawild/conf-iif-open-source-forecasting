@@ -1,0 +1,22 @@
+---
+pagetitle: "About"
+---
+
+:::::: grid
+::: {#about_banner .g-col-12 .title}
+# About the workshop
+:::
+
+::: {.g-col-6 .text_block}
+### Open-source forecasting
+
+In the field of forecasting, the use of open-source software has become increasingly prevalent throughout the entire workflow. These tools have played a pivotal role in making forecasting more accessable to wider audience. While forecasters often switch between different tools as needed, the development of these tools typically occurs in relative isolation. To improve collaboration between different open source forecasting software developers, we are delighted to propose an IIF-sponsored workshop that unites them to share and discuss the latest ideas in the area. The workshop is scheduled to be held on June 26-27 2025 (immediately prior to ISF) in Beijing, China.
+
+The workshop will focus on recent advancements and potential avenues in open-source forecasting software. It aims to establish best practices and encourage collaboration among developers to advance the development and use of open-source tools in forecasting. There is no registration fee for the workshop, and travel support is available for Early Career Forecasters (ECFs) and invitees from low-SES backgrounds (by application).
+:::
+
+::: {.g-col-6 .img_margin}
+![](/img/jon-tyson-FlHdnPO6dlw-unsplash.jpg){.img_block width="100%"}
+:::
+
+::::::
