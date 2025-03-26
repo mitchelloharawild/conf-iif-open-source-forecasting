@@ -1,1 +1,1 @@
-Sitemap: https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/sitemap.xml
+Sitemap: https://event.nectric.com.au/iif-oss/sitemap.xml
