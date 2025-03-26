@@ -1,51 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/committee.html</loc>
-    <lastmod>2025-03-26T01:07:46.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/LICENSE.html</loc>
-    <lastmod>2025-03-26T01:06:59.454Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/participation/keydates/index.html</loc>
-    <lastmod>2025-03-26T01:21:43.736Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/contact.html</loc>
-    <lastmod>2025-03-26T01:53:33.053Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/program/speakers/index.html</loc>
-    <lastmod>2025-03-23T12:06:31.781Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/about/sponsors/index.html</loc>
-    <lastmod>2025-03-26T01:40:12.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/about/organizers.html</loc>
-    <lastmod>2025-03-26T01:04:29.548Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/about/about.html</loc>
-    <lastmod>2025-03-26T02:07:51.632Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/program/schedule/index.html</loc>
-    <lastmod>2025-03-26T01:19:07.511Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/participation/coc.html</loc>
-    <lastmod>2025-03-26T00:57:59.860Z</lastmod>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/index.html</loc>
+    <lastmod>2025-03-26T02:14:08.692Z</lastmod>
   </url>
   <url>
     <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/participation/support.html</loc>
     <lastmod>2025-03-26T02:00:24.622Z</lastmod>
   </url>
   <url>
-    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/index.html</loc>
-    <lastmod>2025-03-26T02:14:08.692Z</lastmod>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/participation/coc.html</loc>
+    <lastmod>2025-03-26T00:57:59.860Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/program/schedule/index.html</loc>
+    <lastmod>2025-03-26T01:19:07.511Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/about/about.html</loc>
+    <lastmod>2025-03-26T02:07:51.632Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/about/organizers.html</loc>
+    <lastmod>2025-03-26T01:04:29.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/about/sponsors/index.html</loc>
+    <lastmod>2025-03-26T01:40:12.766Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/program/speakers/index.html</loc>
+    <lastmod>2025-03-23T12:06:31.781Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/contact.html</loc>
+    <lastmod>2025-03-26T01:53:33.053Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/participation/keydates/index.html</loc>
+    <lastmod>2025-03-26T01:21:43.736Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchelloharawild.github.io/conf-iif-open-source-forecasting/LICENSE.html</loc>
+    <lastmod>2025-03-26T01:06:59.454Z</lastmod>
   </url>
 </urlset>

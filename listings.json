@@ -1,10 +1,6 @@
 [
   {
-    "listing": "/participation/keydates/index.html",
-    "items": []
-  },
-  {
-    "listing": "/program/speakers/index.html",
+    "listing": "/index.html",
     "items": []
   },
   {
@@ -12,7 +8,11 @@
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/program/speakers/index.html",
+    "items": []
+  },
+  {
+    "listing": "/participation/keydates/index.html",
     "items": []
   }
 ]
