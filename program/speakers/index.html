@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Open Source Forecasting</title>
+<title>Speakers – Open Source Forecasting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/clock.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-450c3c869a7d675ff6ea9a80784d66dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/clock.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-450c3c869a7d675ff6ea9a80784d66dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,48 +72,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-countdown .list');
+    const listingTargetEl = window.document.querySelector('#listing-speakers .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-datetime',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-name','listing-affiliation','listing-href','listing-thumbnail','listing-social',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-datetime"],
+      searchColumns: ["listing-name","listing-affiliation","listing-href","listing-thumbnail","listing-social"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-countdown'] = new List('listing-countdown', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-sponsors .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-name','listing-href','listing-thumbnail',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-name","listing-href","listing-thumbnail"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-sponsors'] = new List('listing-sponsors', options);
+    window['quarto-listings']['listing-speakers'] = new List('listing-speakers', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -166,10 +138,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/iif.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/iif.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Open Source Forecasting</span>
     </a>
   </div>
@@ -180,7 +152,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -189,15 +161,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./about/about.html">
+    <a class="dropdown-item" href="../../about/about.html">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about/organizers.html">
+    <a class="dropdown-item" href="../../about/organizers.html">
  <span class="dropdown-text">Organizing committee</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about/sponsors/">
+    <a class="dropdown-item" href="../../about/sponsors/">
  <span class="dropdown-text">Sponsors</span></a>
   </li>  
     </ul>
@@ -208,7 +180,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-program">    
         <li>
-    <a class="dropdown-item" href="./program/schedule/">
+    <a class="dropdown-item" href="../../program/schedule/">
  <span class="dropdown-text">Schedule</span></a>
   </li>  
     </ul>
@@ -219,21 +191,21 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-participation">    
         <li>
-    <a class="dropdown-item" href="./participation/coc.html">
+    <a class="dropdown-item" href="../../participation/coc.html">
  <span class="dropdown-text">Code of conduct</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./participation/keydates/">
+    <a class="dropdown-item" href="../../participation/keydates/">
  <span class="dropdown-text">Key dates</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./participation/support.html">
+    <a class="dropdown-item" href="../../participation/support.html">
  <span class="dropdown-text">Travel support</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -256,75 +228,122 @@ window.Quarto = {
 
 
 <div class="grid">
-<div id="banner" class="g-col-12">
-<section id="iif-workshop-on-open-source-forecasting" class="level1">
-<h1>IIF Workshop on Open Source Forecasting</h1>
-<section id="th-27th-june-2025" class="level3" style="max-width: fit-content; max-width: -moz-fit-content;">
-<h3 style="max-width: fit-content; max-width: -moz-fit-content;" data-anchor-id="th-27th-june-2025">25th-27th June 2025</h3>
-<section id="beihang-university-beijing-china" class="level4">
-<h4 data-anchor-id="beihang-university-beijing-china">Beihang University | Beijing, China</h4>
-</section>
-</section>
+<div id="sponsors_banner" class="g-col-12 title">
+<section id="speakers" class="level1">
+<h1>Speakers</h1>
 </section>
 </div>
-<div id="listing-countdown" class="g-col-12 quarto-listing quarto-listing-container-custom">
-  <div id="countdown">
-    <h6 id="headline"></h6>
-      <ul>
-        <li style=""><span id="days" class="countdown_date"></span>DAYS</li>
-        <li style=""><span id="hours" class="countdown_date"></span>HOURS</li>
-        <li style=""><span id="minutes" class="countdown_date"></span>MINUTES</li>
-        <li style="border-right: 0px;"><span id="seconds" class="countdown_date"></span>SECONDS</li>
-      </ul>
-      
-        <div id="countdownDate" hidden="">2025-06-26T09:00:00.000+08:00</div>
-      
-  </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<div class="g-col-6 text_block">
-<section id="about-the-workshop" class="level3">
-<h3 data-anchor-id="about-the-workshop">About the workshop</h3>
-<p>The IIF special workshop on Open Source Forecasting is a two-day event scheduled to take place immediately before the ISF 2025 conference in Beijing. The workshop will host 30 participants, selected by invitation to ensure a diverse group of professionals from academia, industry, and government. To encourage new discussions and ideas, invitees have been chosen to represent a mix of career stages, programming language expertise, and countries.</p>
-<p>The workshop will focus on recent advancements and potential avenues in open-source forecasting software. It aims to establish best practices and encourage collaboration among developers to advance the development and use of open-source tools in forecasting.</p>
-<p>This event is limited to 30 people, and attendance will be by invitation.</p>
-</section>
-<section id="workshop-topics" class="level2">
-<h2 data-anchor-id="workshop-topics">Workshop topics</h2>
-<ul>
-<li>Forecasting frameworks design (fable, sktime, gluonts, statsforecast, etc.)</li>
-<li>Large forecasting models (foundation models, neural networks, etc.)</li>
-<li>Exploratory time series analysis (data, visualization, evaluation, etc.)</li>
-<li>Future developments for forecasting software (current plans, open problems, etc.)</li>
-<li>Forecasting at scale (hierarchical, big data, optimization, etc.)</li>
-<li>Driving innovations in forecasting (new developments, their implementation and promotion)</li>
-</ul>
-</section>
-</div>
-<div class="g-col-6 img_margin">
-<p><img src="./img/hanson-lu-_8EFj6ISA08-unsplash.jpg" class="img_block img-fluid"></p>
-</div>
-<!-- ::: {.g-col-12 .full_text_block} -->
-<!-- ### Venue -->
-<!-- ::: -->
-<div id="listing-sponsors" class="g-col-12 quarto-listing quarto-listing-container-custom">
+<div id="listing-speakers" class="g-col-12 quarto-listing quarto-listing-container-custom">
 <div class="sponsorsFooter">
-      <h1 id="sponsorTitle" data-default-title="<strong>Sponsors</strong>"><strong>Sponsors</strong></h1>
+      <h1 id="sponsorTitle" data-default-title="<strong>Speakers</strong>"><strong>Speakers</strong></h1>
       <ul>
         
-                            <li><a href="https://forecasters.org/" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/iif.png" alt="International Institute of Forecasters logo"></a></li>
+                            <li><a href="https://example.com" target="_blank" class=""><img width="200" height="200" style="border-radius: 40%;" class="" src="img/user.png" alt="John Doe picture"></a>
+                            
+                            <p><strong> John Doe </strong> <br>
+                            R Consortium <br>
+                            </p><ul>
+                            
+                            
+                              <li class="socialIcons">
+                               
+                      <a class="" href="https://numbat.space">
+                        <i class="bi bi-globe"></i> 
+                      </a>
+                  
+                  
+                  
+                 
+                             
+                             
+                             </li>
+                          
+                              <li class="socialIcons">
+                              
+                  
+                      <a class="" href="https://github.com/numbats">
+                        <i class="bi bi-github"></i> 
+                      </a>
+                  
+                  
+                 
+                             
+                             
+                             </li>
+                          
+                              <li class="socialIcons">
+                              
+                  
+                  
+                  
+                      <a class="" href="https://linkedin.com">
+                        <i class="bi bi-linkedin"></i> 
+                      </a>
+                             
+                             
+                             
+                             </li>
+                          
+                              <li class="socialIcons">
+                              
+                  
+                  
+                 
+                             
+                              
+                      <a class="" href="https://mastodon.com">
+                        <i class="bi bi-mastodon"></i> 
+                      </a>
+                             
+                             </li>
+                          
+                           </ul>
+                            <p></p>
+                            </li>
         
-                            <li><a href="https://www.nixtla.io/" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/nixtla.png" alt="nixtla logo"></a></li>
-        
-                            <li><a href="https://ev.buaa.edu.cn" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/beihang.svg" alt="Beihang University logo"></a></li>
-        
-                            <li><a href="https://www.monash.edu" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/monash-logo-mono.svg" alt="Monash University logo"></a></li>
+                            <li><a href="https://example.com" target="_blank" class=""><img width="200" height="200" style="border-radius: 40%;" class="" src="img/user.png" alt="Sarah Doe picture"></a>
+                            
+                            <p><strong> Sarah Doe </strong> <br>
+                            R Consortium <br>
+                            </p><ul>
+                            
+                            
+                              <li class="socialIcons">
+                               
+                      <a class="" href="https://numbat.space">
+                        <i class="bi bi-globe"></i> 
+                      </a>
+                  
+                  
+                  
+                 
+                             
+                             
+                             </li>
+                          
+                              <li class="socialIcons">
+                              
+                  
+                      <a class="" href="https://github.com/numbats">
+                        <i class="bi bi-github"></i> 
+                      </a>
+                  
+                  
+                 
+                             
+                             
+                             </li>
+                          
+                           </ul>
+                            <p></p>
+                            </li>
         
       </ul>
     </div>
 </div>
+<div>
+
+</div>
 </div>
 
 
@@ -332,51 +351,6 @@ No matching items
 
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-<script>
-
-//countdown timer
-(function () {
-  const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
-
-  let deadline = document.getElementById("countdownDate").innerText//"Sept 21, 2023 23:59:00",
-  console.log(deadline);
-        countDown = new Date(deadline).getTime(),
-      x = setInterval(function() {    
-
-        let now = new Date().getTime(),
-            distance = countDown - now;
-
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-        //do something later when date is reached
-        if (distance < 0) {
-           headline = document.getElementById("headline");
-		document.getElementById("days").innerText = 0;
-		document.getElementById("hours").innerText = 0;
-		document.getElementById("minutes").innerText = 0;
-		document.getElementById("seconds").innerText = 0;
-           //countdown = document.getElementById("countdown");
-           //content = document.getElementById("content");
-
-          headline.innerText = "THE CONFERENCE HAS BEGUN!";
-		document.getElementById("btn_store").disabled = true
-          //countdown.style.display = "none";
-          //content.style.display = "block";
-
-          clearInterval(x);
-        }
-        //seconds
-      }, 0)
-  }());
-    </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

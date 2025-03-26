@@ -1,51 +1,65 @@
 [
   {
-    "objectID": "committee.html",
-    "href": "committee.html",
-    "title": "Organizing committee",
-    "section": "",
-    "text": "General chair\n\nMitchell O’Hara-Wild (PhD student at Monash University and consultant at Nectric, Australia)\n\nProgramme chair\n\nIvan Svetunkov (Senior Lecturer at Lancaster University, UK)\n\nEvent coordination\n\nBahman Rostami-Tabar (Professor at Cardiff University, UK)\n\nLocal logistics\n\nXiaoqian Wang (Research Fellow at Monash University, Australia)\n\nInvitations and general support\n\nAzul Garza Ramirez (CTO & Co-Founder at Nixtla, Mexico)\nResul Akay (Head of Data Science at Quantics.io, Austria)\nShanika Wickramasuriya (Assistant Professor at Monash University, Australia)"
+    "objectID": "about/sponsors/index.html#sponsorship-1",
+    "href": "about/sponsors/index.html#sponsorship-1",
+    "title": "Open Source Forecasting",
+    "section": "Sponsorship",
+    "text": "Sponsorship\nWe are grateful to the sponsors of this event which have fully funded the workshop and enabled us to offer funding support for early career forecasters (ECFs) and attendees from lower-middle income countries.\nGold sponsors\n\nnixtla\nInternational Institute of Forecasters\n\nVenue sponsor\n\nBeihang University\n\nSponsors\n\nMonash University"
   },
   {
-    "objectID": "program.html",
-    "href": "program.html",
-    "title": "Program",
-    "section": "",
-    "text": "25th June 2025\n\n5:00pm - 7:00pm: Welcome reception / social event (TBC)\n\n\n\n26th June 2025 (day 1)\n\n9.00am – 10.30am: Session 1 (2x30min presentations, 2x15min discussion)\n10.30am – 11.00am: Morning tea\n11.00am – 12.30pm: Session 2 (2x30min presentations, 2x15min discussion)\n12.30pm – 1.30pm: Lunch\n1.30pm – 3.00pm: Session 3 (2x30min presentations, 2x15min discussion)\n3.00pm – 3.30pm: Afternoon tea\n3.30pm – 5.00pm: Open problems (4x20min short talks)\n\n\n\n27th June 2025 (day 2)\n\n9.00am – 10.30am: Session 1 (2x30min presentations, 2x15min discussion)\n10.30am – 11.00am: Morning tea\n11.00am – 12.30pm: Session 2 (2x30min presentations, 2x15min discussion)\n12.30pm – 1.30pm: Lunch\n1.30pm – 3.00pm: Session 3 (2x30min presentations, 2x15min discussion)\n3.00pm – 3.30pm: Afternoon tea\n3.30pm – 5.00pm: Open problems (4x20min short talks)"
+    "objectID": "about/sponsors/index.html#contact",
+    "href": "about/sponsors/index.html#contact",
+    "title": "Open Source Forecasting",
+    "section": "Contact",
+    "text": "Contact\nFor sponsorship inquiries, please contact mitch.ohara-wild@monash.edu. Further sponsorship will enable us to provide more travel support for attendees."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "IIF Workshop on Open Source Forecasting",
-    "section": "",
-    "text": "Dates: June 26th-27th 2025\nVenue: TBC\nLocation: Beijing, China\nThis event is limited to 30 people, and attendance will be by invitation."
+    "objectID": "participation/coc.html#code-of-conduct-1",
+    "href": "participation/coc.html#code-of-conduct-1",
+    "title": "Open Source Forecasting",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nThe organizers of this workshop are dedicated to providing a harassment-free conference experience for everyone regardless of age, gender, sexual orientation, disability, physical appearance, race, or religion (or lack thereof).\nAll participants (including attendees, speakers, sponsors and volunteers) are required to agree to the following code of conduct.\nThe code of conduct applies to all event activities including talks, discussions, and social events. It extends to conference-specific exchanges on social media.\nOrganizers will enforce this code throughout and expect cooperation in ensuring a safe environment for all."
   },
   {
-    "objectID": "index.html#key-details",
-    "href": "index.html#key-details",
-    "title": "IIF Workshop on Open Source Forecasting",
-    "section": "",
-    "text": "Dates: June 26th-27th 2025\nVenue: TBC\nLocation: Beijing, China\nThis event is limited to 30 people, and attendance will be by invitation."
+    "objectID": "participation/coc.html#expected-behaviour",
+    "href": "participation/coc.html#expected-behaviour",
+    "title": "Open Source Forecasting",
+    "section": "Expected Behaviour",
+    "text": "Expected Behaviour\nAll conference participants agree to:\n\nBe considerate in language and actions, and respect the boundaries of fellow participants.\nRefrain from demeaning, discriminatory, or harassing behaviour and language.\nAlert a member of the code of conduct response team if you notice someone in distress, or observe violations of this code of conduct, even if they seem inconsequential."
   },
   {
-    "objectID": "index.html#workshop-aim",
-    "href": "index.html#workshop-aim",
-    "title": "IIF Workshop on Open Source Forecasting",
-    "section": "Workshop aim",
-    "text": "Workshop aim\nThe IIF special workshop on Open Source Forecasting is a two-day event scheduled to take place immediately before the ISF 2025 conference in Beijing. The workshop will host 30 participants, selected by invitation to ensure a diverse group of professionals from academia, industry, and government. To encourage new discussions and ideas, invitees have been chosen to represent a mix of career stages, programming language expertise, and countries.\nThe workshop will focus on recent advancements and potential avenues in open-source forecasting software. It aims to establish best practices and encourage collaboration among developers to advance the development and use of open-source tools in forecasting."
+    "objectID": "participation/coc.html#unacceptable-behaviour",
+    "href": "participation/coc.html#unacceptable-behaviour",
+    "title": "Open Source Forecasting",
+    "section": "Unacceptable Behaviour",
+    "text": "Unacceptable Behaviour\nBehaviour that is unacceptable includes, but is not limited to:\n\nStalking\nDeliberate intimidation\nUnwanted photography or recording\nSustained or willful disruption of talks or other events\nUse of sexual or discriminatory imagery, comments, or jokes\nOffensive comments related to age, gender, sexual orientation, disability, race or religion\nInappropriate physical contact, which can include grabbing, or massaging or hugging without consent.\nUnwelcome sexual attention, which can include inappropriate questions of a sexual nature, asking for sexual favours or repeatedly asking for dates or contact information.\n\nIf you are asked to stop harassing behaviour you should stop immediately, even if your behaviour was meant to be friendly or a joke, it was clearly not taken that way and for the comfort of all conference attendees you should stop.\nAttendees who behave in a manner deemed inappropriate are subject to actions listed under Procedure for Code of Conduct Violations.\nPresentation slides and posters should not contain offensive or sexualised material.\nIf this material is impossible to avoid given the topic (for example text mining of material from hate sites) the existence of this material should be noted in the abstract and, in the case of oral contributions, at the start of the talk or session."
+  },
+  {
+    "objectID": "participation/coc.html#procedure-for-code-of-conduct-violations",
+    "href": "participation/coc.html#procedure-for-code-of-conduct-violations",
+    "title": "Open Source Forecasting",
+    "section": "Procedure for Code of Conduct Violations",
+    "text": "Procedure for Code of Conduct Violations\nThe organizing committee reserves the right to determine the appropriate response for all code of conduct violations.\nPotential responses include:\n\na formal warning to stop harassing behaviour\nexpulsion from the event\nremoval of sponsor displays or event posters\ncancellation or early termination of talks or other contributions to the program"
+  },
+  {
+    "objectID": "participation/coc.html#what-to-do-if-you-witness-or-are-subject-to-unacceptable-behaviour",
+    "href": "participation/coc.html#what-to-do-if-you-witness-or-are-subject-to-unacceptable-behaviour",
+    "title": "Open Source Forecasting",
+    "section": "What To Do If You Witness or Are Subject To Unacceptable Behaviour",
+    "text": "What To Do If You Witness or Are Subject To Unacceptable Behaviour\nAlert the Code Of Conduct Response Team if you notice someone in distress, or observe violations of this code of conduct, even if they seem inconsequential.\nReports should be addressed to mitch.ohara-wild@monash.edu. If the report concerns someone from the response team, that member and everyone that would enter a conflict of interest will recuse themselves.\nWe will take all reports by participants seriously. This includes incidents outside our spaces and at any point in time. The organizing committee reserves the right to exclude people based on their past behavior, including behavior outside event spaces and behavior towards people who are not part of the event.\nWe will respect confidentiality requests for the purpose of protecting targets of harassing behavior. We will not name victims without their affirmative consent. Correspondence is handled confidentially and deleted after the case is resolved. All data is stored securely, access will be limited to the members of the Code Of Conduct Response Team who take the case.\nEvent organizers will also provide support to victims, including, but not limited to:\n\nBriefing key event staff to provide appropriate assistance.\nOther assistance to ensure victims feel safe for the duration of the conference.\nAssistance will only be provided with affirmative consent of the victim."
+  },
+  {
+    "objectID": "participation/coc.html#acknowledgements",
+    "href": "participation/coc.html#acknowledgements",
+    "title": "Open Source Forecasting",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThis code of conduct was adapted from the useR! conference’s code of conduct and the rOpenSci’s code of conduct."
   },
   {
     "objectID": "index.html#workshop-topics",
     "href": "index.html#workshop-topics",
-    "title": "IIF Workshop on Open Source Forecasting",
+    "title": "Open Source Forecasting",
     "section": "Workshop topics",
-    "text": "Workshop topics\n\nForecasting frameworks design (fable, sktime, statsforecast, etc.)\nLarge forecasting models (foundation models, neural networks, etc.)\nExploratory time series analysis (data, visualization, evaluation, etc.)\nFuture developments for forecasting software (current plans, open problems, etc.)\nForecasting at scale (hierarchical, big data, optimization, etc.)\nDriving innovations in forecasting (new developments, their implementation and promotion)"
-  },
-  {
-    "objectID": "index.html#sponsors",
-    "href": "index.html#sponsors",
-    "title": "IIF Workshop on Open Source Forecasting",
-    "section": "Sponsors",
-    "text": "Sponsors\nTBC"
+    "text": "Workshop topics\n\nForecasting frameworks design (fable, sktime, gluonts, statsforecast, etc.)\nLarge forecasting models (foundation models, neural networks, etc.)\nExploratory time series analysis (data, visualization, evaluation, etc.)\nFuture developments for forecasting software (current plans, open problems, etc.)\nForecasting at scale (hierarchical, big data, optimization, etc.)\nDriving innovations in forecasting (new developments, their implementation and promotion)"
   }
 ]
