@@ -2,9 +2,11 @@ project:
   type: website
 
 website:
-  title: "Open Source Forecasting"
+  title: "Workshop on Open Source Forecasting"
   favicon: img/clock.png
   sidebar: false
+  description: "A special IIF workshop (conference) on open source forecasting software"
+  site-url: "https://event.nectric.com.au/iif-oss"
   
   announcement: 
     icon: megaphone-fill
@@ -30,7 +32,7 @@ website:
             href: about/sponsors/
       - text: Program
         menu: 
-          - text: Schedule>
+          - text: Schedule
             href: program/schedule/
           # - text: Speakers
           #   href: program/speakers/
