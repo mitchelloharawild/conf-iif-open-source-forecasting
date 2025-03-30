@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html#workshop-topics",
-    "href": "index.html#workshop-topics",
-    "title": "Workshop on Open Source Forecasting",
-    "section": "Workshop topics",
-    "text": "Workshop topics\n\nForecasting frameworks design (fable, sktime, gluonts, statsforecast, etc.)\nLarge forecasting models (foundation models, neural networks, etc.)\nExploratory time series analysis (data, visualization, evaluation, etc.)\nFuture developments for forecasting software (current plans, open problems, etc.)\nForecasting at scale (hierarchical, big data, optimization, etc.)\nDriving innovations in forecasting (new developments, their implementation and promotion)"
-  },
-  {
     "objectID": "participation/coc.html#code-of-conduct-1",
     "href": "participation/coc.html#code-of-conduct-1",
     "title": "Workshop on Open Source Forecasting",
