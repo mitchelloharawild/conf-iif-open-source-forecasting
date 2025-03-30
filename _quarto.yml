@@ -30,10 +30,8 @@ website:
             href: about/organizers.qmd
           - text: Sponsors
             href: about/sponsors/
-      - text: Program
-        menu: 
-          - text: Schedule
-            href: program/schedule/
+      - text: Schedule
+        href: program/schedule/
           # - text: Speakers
           #   href: program/speakers/
       # - text: Register
