@@ -23,7 +23,7 @@ pagetitle: "Committee members"
 
 **Local logistics**
 
--   [Xiaoqian Wang](https://github.com/xqnwang) (Research Fellow at Monash University, Australia)
+-   [Xiaoqian Wang](https://github.com/xqnwang) (Assistant Professor at Chinese Academy of Sciences, China)
 
 **Invitations and general support**
 
