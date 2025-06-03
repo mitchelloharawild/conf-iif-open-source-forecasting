@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-450c3c869a7d675ff6ea9a80784d66dd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-310c1b38ea5731b3e9a0079516ea9636.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-name','listing-affiliation','listing-href','listing-thumbnail','listing-social',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-name','listing-affiliation','listing-thumbnail','listing-social',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-name","listing-affiliation","listing-href","listing-thumbnail","listing-social"],
+      searchColumns: ["listing-name","listing-affiliation","listing-thumbnail","listing-social"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -178,25 +178,14 @@ window.Quarto = {
     <a class="nav-link" href="../../program/schedule/"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-participation" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Participation</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-participation">    
-        <li>
-    <a class="dropdown-item" href="../../participation/coc.html">
- <span class="dropdown-text">Code of conduct</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../program/speakers/"> 
+<span class="menu-text">Participants</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../participation/keydates/">
- <span class="dropdown-text">Key dates</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../participation/coc.html"> 
+<span class="menu-text">Code of conduct</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../participation/support.html">
- <span class="dropdown-text">Travel support</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
@@ -227,112 +216,850 @@ window.Quarto = {
 </section>
 </div>
 <div id="listing-speakers" class="g-col-12 quarto-listing quarto-listing-container-custom">
-<div class="sponsorsFooter">
-      <h1 id="sponsorTitle" data-default-title="<strong>Speakers</strong>"><strong>Speakers</strong></h1>
-      <ul>
-        
-                            <li><a href="https://example.com" target="_blank" class=""><img width="200" height="200" style="border-radius: 40%;" class="" src="img/user.png" alt="John Doe picture"></a>
-                            
-                            <p><strong> John Doe </strong> <br>
-                            R Consortium <br>
-                            </p><ul>
-                            
-                            
-                              <li class="socialIcons">
-                               
-                      <a class="" href="https://numbat.space">
-                        <i class="bi bi-globe"></i> 
-                      </a>
-                  
-                  
-                  
-                 
-                             
-                             
-                             </li>
-                          
-                              <li class="socialIcons">
-                              
-                  
-                      <a class="" href="https://github.com/numbats">
-                        <i class="bi bi-github"></i> 
-                      </a>
-                  
-                  
-                 
-                             
-                             
-                             </li>
-                          
-                              <li class="socialIcons">
-                              
-                  
-                  
-                  
-                      <a class="" href="https://linkedin.com">
-                        <i class="bi bi-linkedin"></i> 
-                      </a>
-                             
-                             
-                             
-                             </li>
-                          
-                              <li class="socialIcons">
-                              
-                  
-                  
-                 
-                             
-                              
-                      <a class="" href="https://mastodon.com">
-                        <i class="bi bi-mastodon"></i> 
-                      </a>
-                             
-                             </li>
-                          
-                           </ul>
-                            <p></p>
-                            </li>
-        
-                            <li><a href="https://example.com" target="_blank" class=""><img width="200" height="200" style="border-radius: 40%;" class="" src="img/user.png" alt="Sarah Doe picture"></a>
-                            
-                            <p><strong> Sarah Doe </strong> <br>
-                            R Consortium <br>
-                            </p><ul>
-                            
-                            
-                              <li class="socialIcons">
-                               
-                      <a class="" href="https://numbat.space">
-                        <i class="bi bi-globe"></i> 
-                      </a>
-                  
-                  
-                  
-                 
-                             
-                             
-                             </li>
-                          
-                              <li class="socialIcons">
-                              
-                  
-                      <a class="" href="https://github.com/numbats">
-                        <i class="bi bi-github"></i> 
-                      </a>
-                  
-                  
-                 
-                             
-                             
-                             </li>
-                          
-                           </ul>
-                            <p></p>
-                            </li>
-        
-      </ul>
+<div class="speakersFooter">
+<div class="card-columns">
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/127518?v=4" alt="Rob J Hyndman picture">
+      <div class="card-body">
+        <h5 class="card-title">Rob J Hyndman</h5>
+        <p class="card-text">Monash University</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/robjhyndman">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+           
+             
+             
+              
+                <a class="" href="https://bsky.app/profile/robjhyndman.com">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bluesky" viewbox="0 0 16 16">
+    <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"></path>
+  </svg>
+                </a>
+             
+             </li>
+          
+        </ul>
+      </div>
     </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/13439059?v=4" alt="Joaquín Amat Rodrigo picture">
+      <div class="card-body">
+        <h5 class="card-title">Joaquín Amat Rodrigo</h5>
+        <p class="card-text">skforecast</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/JoaquinAmatRodrigo">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="www.linkedin.com/in/joaquin-amat-rodrigo">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/10517170?v=4" alt="Azul Garza picture">
+      <div class="card-body">
+        <h5 class="card-title">Azul Garza</h5>
+        <p class="card-text">Nixtla</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/azulgarza">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/azul-garza-ramirez/">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/16127127?v=4" alt="Mitchell O'Hara-Wild picture">
+      <div class="card-body">
+        <h5 class="card-title">Mitchell O'Hara-Wild</h5>
+        <p class="card-text">Monash University</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/mitchelloharawild">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+               
+                <a class="" href="https://mitchelloharawild.com">
+                  <i class="bi bi-globe"></i> 
+                </a>
+            
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+           
+             
+             
+              
+                <a class="" href="https://bsky.app/profile/mitchelloharawild.com">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bluesky" viewbox="0 0 16 16">
+    <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"></path>
+  </svg>
+                </a>
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/mitchelloharawild">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/24385030?v=4" alt="Haixu Wu picture">
+      <div class="card-body">
+        <h5 class="card-title">Haixu Wu</h5>
+        <p class="card-text">Tsinghua University</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/wuhaixu2016">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/1174311?v=4" alt="Feng Li picture">
+      <div class="card-body">
+        <h5 class="card-title">Feng Li</h5>
+        <p class="card-text">Guanghua School of Management, Peking University</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/feng-li">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/78328370?v=4" alt="Tomasz Woźniak picture">
+      <div class="card-body">
+        <h5 class="card-title">Tomasz Woźniak</h5>
+        <p class="card-text">University of Melbourne</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/donotdespair">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+           
+             
+             
+              
+                <a class="" href="https://bsky.app/profile/tomaszwozniak.bsky.social">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bluesky" viewbox="0 0 16 16">
+    <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"></path>
+  </svg>
+                </a>
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/tomaszwwozniak">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/9594042?v=4" alt="Tony Bagnall picture">
+      <div class="card-body">
+        <h5 class="card-title">Tony Bagnall</h5>
+        <p class="card-text">University of Southampton</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/TonyBagnall">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+                <a class="" href="https://twitter.com/tony_bagnall">
+                  <i class="bi bi-twitter"></i> 
+                </a>
+              
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/tony-bagnall-50aa604/">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/22215984?v=4" alt="Gerald Woo picture">
+      <div class="card-body">
+        <h5 class="card-title">Gerald Woo</h5>
+        <p class="card-text">Independent</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/gorold">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/32216334?v=4" alt="Yangzhuoran Fin Yang picture">
+      <div class="card-body">
+        <h5 class="card-title">Yangzhuoran Fin Yang</h5>
+        <p class="card-text">Maastricht University</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/FinYang">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/524058?v=4" alt="Christoph Bergmeir picture">
+      <div class="card-body">
+        <h5 class="card-title">Christoph Bergmeir</h5>
+        <p class="card-text">University of Granada</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/cbergmeir">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+               
+                <a class="" href="https://cbergmeir.com">
+                  <i class="bi bi-globe"></i> 
+                </a>
+            
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/37219858?v=4" alt="Xiaoqian Wang picture">
+      <div class="card-body">
+        <h5 class="card-title">Xiaoqian Wang</h5>
+        <p class="card-text">Chinese Academy of Sciences</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/xqnwang">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/43197536?v=4" alt="Arjun Ashok picture">
+      <div class="card-body">
+        <h5 class="card-title">Arjun Ashok</h5>
+        <p class="card-text">ServiceNow Research &amp; Mila-Quebec AI Institute</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/ashok-arjun">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+               
+                <a class="" href="https://ashok-arjun.github.io/">
+                  <i class="bi bi-globe"></i> 
+                </a>
+            
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+                <a class="" href="https://twitter.com/arjunashok37">
+                  <i class="bi bi-twitter"></i> 
+                </a>
+              
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/arjun-ashok-psg">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/36616292?v=4" alt="Pablo Montero-Manso picture">
+      <div class="card-body">
+        <h5 class="card-title">Pablo Montero-Manso</h5>
+        <p class="card-text">University of Sydney</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/pmontman">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/56480827?v=4" alt="Daniele Girolimetto picture">
+      <div class="card-body">
+        <h5 class="card-title">Daniele Girolimetto</h5>
+        <p class="card-text">University of Padova</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/danigiro">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/32930283?v=4" alt="Bohan Zhang picture">
+      <div class="card-body">
+        <h5 class="card-title">Bohan Zhang</h5>
+        <p class="card-text">Beihang University</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/AngelPone">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+               
+                <a class="" href="https://bohan-zhang.com">
+                  <i class="bi bi-globe"></i> 
+                </a>
+            
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/70523417?v=4" alt="Filotas Theodosiou picture">
+      <div class="card-body">
+        <h5 class="card-title">Filotas Theodosiou</h5>
+        <p class="card-text">VIVES University of Applied Sciences</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/FilTheo">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/filotas-theodosiou/">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/60213950?v=4" alt="Nuwani Palihawadana picture">
+      <div class="card-body">
+        <h5 class="card-title">Nuwani Palihawadana</h5>
+        <p class="card-text">Monash University, Australia</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/nuwani-palihawadana">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+               
+                <a class="" href="https://nuwanipalihawadana.netlify.app/">
+                  <i class="bi bi-globe"></i> 
+                </a>
+            
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/nuwani-palihawadana/">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/77152345?v=4" alt="Lorenzo Zambon picture">
+      <div class="card-body">
+        <h5 class="card-title">Lorenzo Zambon</h5>
+        <p class="card-text">IDSIA (Lugano, Switzerland)</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/LorenzoZambon">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/46902915?v=4" alt="Kandrika Pritularga picture">
+      <div class="card-body">
+        <h5 class="card-title">Kandrika Pritularga</h5>
+        <p class="card-text">Lancaster University</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/nikdraka">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/kandrika/">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/5873560?v=4" alt="Charupriya Sharma picture">
+      <div class="card-body">
+        <h5 class="card-title">Charupriya Sharma</h5>
+        <p class="card-text">Amazon</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/CharupriyaSharma">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img class="card-img-top" src="https://avatars.githubusercontent.com/u/171348088?v=4" alt="Anubhab Biswas picture">
+      <div class="card-body">
+        <h5 class="card-title">Anubhab Biswas</h5>
+        <p class="card-text">Scuola universitaria professionale della Svizzera italiana, SUPSI</p>
+        <ul>
+            
+              <li class="socialIcons">
+              
+            
+                <a class="" href="https://github.com/Anubhabsupsi">
+                  <i class="bi bi-github"></i> 
+                </a>
+            
+            
+           
+             
+             
+             
+             </li>
+          
+              <li class="socialIcons">
+              
+            
+            
+            
+                <a class="" href="https://www.linkedin.com/in/anubhab-biswas-308774247/">
+                  <i class="bi bi-linkedin"></i> 
+                </a>
+             
+             
+             
+             
+             </li>
+          
+        </ul>
+      </div>
+    </div>
+  
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 <div>
 
@@ -340,7 +1067,6 @@ window.Quarto = {
 </div>
 
 
-</div>
 
 
 
@@ -763,7 +1489,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
