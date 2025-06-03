@@ -1,19 +1,124 @@
-    - name: John Doe
-      affiliation: R Consortium
-      href: https://example.com
-      thumbnail: img/user.png
-      social: 
-      - website: https://numbat.space
-      - github: https://github.com/numbats
-      # - twitter: https://twitter.com/satrdays
-      - linkedin: https://linkedin.com
-      - mastodon: https://mastodon.com
-    - name: Sarah Doe
-      affiliation: R Consortium
-      href: https://example.com
-      thumbnail: img/user.png
-      social: 
-      - website: https://numbat.space
-      - github: https://github.com/numbats
-      # - twitter: https://twitter.com/satrdays
-      # - linkedin: https://linkedin.com
+- name: Rob J Hyndman
+  affiliation: Monash University
+  thumbnail: https://avatars.githubusercontent.com/u/127518?v=4
+  social:
+  - github: https://github.com/robjhyndman
+  - bluesky: https://bsky.app/profile/robjhyndman.com
+- name: Joaquín Amat Rodrigo
+  affiliation: skforecast
+  thumbnail: https://avatars.githubusercontent.com/u/13439059?v=4
+  social:
+  - github: https://github.com/JoaquinAmatRodrigo
+  - linkedin: www.linkedin.com/in/joaquin-amat-rodrigo
+- name: Mitchell O'Hara-Wild
+  affiliation: Monash University
+  thumbnail: https://avatars.githubusercontent.com/u/16127127?v=4
+  social:
+  - github: https://github.com/mitchelloharawild
+  - website: https://mitchelloharawild.com
+  - bluesky: https://bsky.app/profile/mitchelloharawild.com
+  - linkedin: https://www.linkedin.com/in/mitchelloharawild
+- name: Haixu Wu
+  affiliation: Tsinghua University
+  thumbnail: https://avatars.githubusercontent.com/u/24385030?v=4
+  social:
+  - github: https://github.com/wuhaixu2016
+- name: Feng Li
+  affiliation: Guanghua School of Management, Peking University
+  thumbnail: https://avatars.githubusercontent.com/u/1174311?v=4
+  social:
+  - github: https://github.com/feng-li
+- name: Tomasz Woźniak
+  affiliation: University of Melbourne
+  thumbnail: https://avatars.githubusercontent.com/u/78328370?v=4
+  social:
+  - github: https://github.com/donotdespair
+  - bluesky: https://bsky.app/profile/tomaszwozniak.bsky.social
+  - linkedin: https://www.linkedin.com/in/tomaszwwozniak
+- name: Tony Bagnall
+  affiliation: University of Southampton
+  thumbnail: https://avatars.githubusercontent.com/u/9594042?v=4
+  social:
+  - github: https://github.com/TonyBagnall
+  - twitter: https://twitter.com/tony_bagnall
+  - linkedin: https://www.linkedin.com/in/tony-bagnall-50aa604/
+- name: Gerald Woo
+  affiliation: Independent
+  thumbnail: https://avatars.githubusercontent.com/u/22215984?v=4
+  social:
+  - github: https://github.com/gorold
+- name: Yangzhuoran Fin Yang
+  affiliation: Maastricht University
+  thumbnail: https://avatars.githubusercontent.com/u/32216334?v=4
+  social:
+  - github: https://github.com/FinYang
+- name: Christoph Bergmeir
+  affiliation: University of Granada
+  thumbnail: https://avatars.githubusercontent.com/u/524058?v=4
+  social:
+  - github: https://github.com/cbergmeir
+  - website: https://cbergmeir.com
+- name: Xiaoqian Wang
+  affiliation: Chinese Academy of Sciences
+  thumbnail: https://avatars.githubusercontent.com/u/37219858?v=4
+  social:
+  - github: https://github.com/xqnwang
+- name: Arjun Ashok
+  affiliation: ServiceNow Research & Mila-Quebec AI Institute
+  thumbnail: https://avatars.githubusercontent.com/u/43197536?v=4
+  social:
+  - github: https://github.com/ashok-arjun
+  - website: https://ashok-arjun.github.io/
+  - twitter: https://twitter.com/arjunashok37
+  - linkedin: https://www.linkedin.com/in/arjun-ashok-psg
+- name: Pablo Montero-Manso
+  affiliation: University of Sydney
+  thumbnail: https://avatars.githubusercontent.com/u/36616292?v=4
+  social:
+  - github: https://github.com/pmontman
+- name: Daniele Girolimetto
+  affiliation: University of Padova
+  thumbnail: https://avatars.githubusercontent.com/u/56480827?v=4
+  social:
+  - github: https://github.com/danigiro
+- name: Bohan Zhang
+  affiliation: Beihang University
+  thumbnail: https://avatars.githubusercontent.com/u/32930283?v=4
+  social:
+  - github: https://github.com/AngelPone
+  - website: https://bohan-zhang.com
+- name: Filotas Theodosiou
+  affiliation: VIVES University of Applied Sciences
+  thumbnail: https://avatars.githubusercontent.com/u/70523417?v=4
+  social:
+  - github: https://github.com/FilTheo
+  - linkedin: https://www.linkedin.com/in/filotas-theodosiou/
+- name: Nuwani Palihawadana
+  affiliation: Monash University, Australia
+  thumbnail: https://avatars.githubusercontent.com/u/60213950?v=4
+  social:
+  - github: https://github.com/nuwani-palihawadana
+  - website: https://nuwanipalihawadana.netlify.app/ 
+  - linkedin: https://www.linkedin.com/in/nuwani-palihawadana/
+- name: Lorenzo Zambon
+  affiliation: IDSIA (Lugano, Switzerland)
+  thumbnail: https://avatars.githubusercontent.com/u/77152345?v=4
+  social:
+  - github: https://github.com/LorenzoZambon
+- name: Kandrika Pritularga
+  affiliation: Lancaster University
+  thumbnail: https://avatars.githubusercontent.com/u/46902915?v=4
+  social:
+  - github: https://github.com/nikdraka
+  - linkedin: https://www.linkedin.com/in/kandrika/
+- name: Charupriya Sharma
+  affiliation: Amazon
+  thumbnail: https://avatars.githubusercontent.com/u/5873560?v=4
+  social:
+  - github: https://github.com/CharupriyaSharma
+- name: Anubhab
+  affiliation: Scuola universitaria professionale della Svizzera italiana, SUPSI
+  thumbnail: https://avatars.githubusercontent.com/u/171348088?v=4
+  social:
+  - github: https://github.com/Anubhabsupsi
+  - linkedin: https://www.linkedin.com/in/anubhab-biswas-308774247/

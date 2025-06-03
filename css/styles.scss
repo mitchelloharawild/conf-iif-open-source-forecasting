@@ -151,7 +151,7 @@ footer.footer .nav-footer, #quarto-header nav {
 
 /* Sponsors */
 
-.sponsorsFooter {
+.speakersFooter, .sponsorsFooter {
   width: 100%;
   height: auto;
   padding: 10px 0 10px;
@@ -178,7 +178,7 @@ footer.footer .nav-footer, #quarto-header nav {
   max-height: 150px;
 }
 
-.sponsorsFooter ul {
+.speakersFooter ul, .sponsorsFooter ul {
   padding: 0;
   margin: 15px 0 0 0;
   list-style: none;
@@ -216,12 +216,16 @@ footer.footer .nav-footer, #quarto-header nav {
   text-decoration: none !important;
 }
 
+.speakersFooter ul li {
+  display: inline-block;
+}
+
 .sponsorsFooter ul li {
   margin: 5px 65px 0px;
   display: inline-block;
 }
 
-.sponsorsFooter ul li .socialIcons{
+.speakersFooter ul li .socialIcons, .sponsorsFooter ul li .socialIcons{
   margin: 2px 5px 0px;
 	display: inline-block;
 }
@@ -303,4 +307,31 @@ footer.footer .nav-footer, #quarto-header nav {
   color: rgba($primary, .6); 
   font-size:1.3em; 
   font-weight:bold;
+}
+
+.card-columns {
+  @include media-breakpoint-only(sm) {
+    column-count: 1;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 1;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 2;
+  }
+  
+  column-count: 4;
+  margin: 0 25px;
+}
+
+.card {
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.card img {
+  width: 200px;
+}
+
+.card-title {
+  font-weight: bold;
 }

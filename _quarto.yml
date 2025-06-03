@@ -32,20 +32,20 @@ website:
             href: about/sponsors/
       - text: Schedule
         href: program/schedule/
-          # - text: Speakers
-          #   href: program/speakers/
+      - text: Participants
+        href: program/speakers/
       # - text: Register
       #   href: register.qmd
-      - text: Participation
-        menu: 
+      - text: Code of conduct
+        href: participation/coc.qmd
+      # - text: Participation
+      #   menu: 
           # - text: Call for submissions
           #   href: participation/call.qmd
-          - text: Code of conduct
-            href: participation/coc.qmd
-          - text: Key dates
-            href: participation/keydates/
-          - text: Travel support
-            href: participation/support.qmd
+          # - text: Key dates
+          #   href: participation/keydates/
+          # - text: Travel support
+          #   href: participation/support.qmd
       - text: Contact
         href: contact.qmd
   page-footer: 
