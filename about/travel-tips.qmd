@@ -1,0 +1,42 @@
+---
+pagetitle: "Travel tips"
+---
+
+:::::: grid
+::: {#organizers_banner .g-col-12 .title}
+# Travel tips
+:::
+
+::: {.g-col-6 .text_block}
+### Mobile Payments
+
+Setting up mobile payments with WeChat and/or Alipay is essential when traveling to Beijing, as many vendors and services prefer or only accept these digital payment methods. 
+
+Before travelling, install WeChat and/or Alipay and create an account with your mobile number. Follow these instructions to add your payment card:
+
+* **WeChat**: <https://www.trip.com/guide/phone/wechat-pay-for-foreigners.html>
+* **Alipay**: <https://www.trip.com/guide/phone/how-to-use-alipay.html>
+
+### Internet Services
+
+Many internet services commonly used outside of China are blocked within China. While VPNs are an option, they can be unreliable due to updates in China's firewall. International roaming services allow unblocked access to the internet, which includes many travel SIMs for China (roaming from Hong Kong).
+
+- **Maps:** Download offline maps before travelling. Google Maps is incomplete at best and doesn't have public transport information. Consider using Chinese apps for navigation, such as Baidu Maps or Amap (which both have English language support).
+
+- **Translation:** Install Google Translate and download the Chinese language pack for offline use before travelling.
+
+- **Email:** Many commonly used email services (such as Gmail and Outlook) are unavailable in China, set away responders and consider using a roaming SIM for email access.
+
+### Transport
+
+- **Trains:** The Beijing metro accepts international payment cards (and mobile tap payments).
+
+- **Taxis:** Taxis are plentiful in Beijing, but ensure the driver uses the meter. Have your destination(s) written in Chinese and point to where you want to go.
+
+- **Didi:** Didi is the Uber of China, and can be accessed in English from within the Alipay app.
+:::
+
+::: {.g-col-6 .img_margin}
+![](/img/hanson-lu-_8EFj6ISA08-unsplash.jpg){.img_block}
+:::
+::::::

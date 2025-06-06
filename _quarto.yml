@@ -26,6 +26,8 @@ website:
         menu:
           - text: About
             href: about/about.qmd
+          - text: Travel tips
+            href: about/travel-tips.qmd
           - text: Organizing committee
             href: about/organizers.qmd
           - text: Sponsors
