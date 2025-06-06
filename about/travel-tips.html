@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Workshop on Open Source Forecasting</title>
+<title>Travel tips – Workshop on Open Source Forecasting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/clock.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-310c1b38ea5731b3e9a0079516ea9636.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/clock.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-310c1b38ea5731b3e9a0079516ea9636.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,93 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-countdown .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-datetime',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-datetime"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-countdown'] = new List('listing-countdown', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-sponsors .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-name','listing-href','listing-thumbnail',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-name","listing-href","listing-thumbnail"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-sponsors'] = new List('listing-sponsors', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -166,10 +78,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/iif.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/iif.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Workshop on Open Source Forecasting</span>
     </a>
   </div>
@@ -180,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -189,37 +101,37 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./about/about.html">
+    <a class="dropdown-item" href="../about/about.html">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about/travel-tips.html">
+    <a class="dropdown-item" href="../about/travel-tips.html">
  <span class="dropdown-text">Travel tips</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about/organizers.html">
+    <a class="dropdown-item" href="../about/organizers.html">
  <span class="dropdown-text">Organizing committee</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about/sponsors/">
+    <a class="dropdown-item" href="../about/sponsors/">
  <span class="dropdown-text">Sponsors</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./program/schedule/"> 
+    <a class="nav-link" href="../program/schedule/"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./program/speakers/"> 
+    <a class="nav-link" href="../program/speakers/"> 
 <span class="menu-text">Participants</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./participation/coc.html"> 
+    <a class="nav-link" href="../participation/coc.html"> 
 <span class="menu-text">Code of conduct</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -242,160 +154,49 @@ window.Quarto = {
 
 
 <div class="grid">
-<div id="banner" class="g-col-12">
-<section id="iif-workshop-on-open-source-forecasting" class="level1">
-<h1>IIF Workshop on Open Source Forecasting</h1>
-<section id="th-27th-june-2025" class="level3" style="max-width: fit-content; max-width: -moz-fit-content;">
-<h3 style="max-width: fit-content; max-width: -moz-fit-content;" data-anchor-id="th-27th-june-2025">25th-27th June 2025</h3>
-<section id="venue-beihang-university-haidian-district-beijing-china" class="level4">
-<h4 data-anchor-id="venue-beihang-university-haidian-district-beijing-china">Venue: Beihang University, Haidian District, Beijing, China</h4>
+<div id="organizers_banner" class="g-col-12 title">
+<section id="travel-tips" class="level1">
+<h1>Travel tips</h1>
 </section>
-</section>
-</section>
-</div>
-<div id="listing-countdown" class="g-col-12 quarto-listing quarto-listing-container-custom">
-  <div id="countdown">
-    <h6 id="headline"></h6>
-      <ul>
-        <li style=""><span id="days" class="countdown_date"></span>DAYS</li>
-        <li style=""><span id="hours" class="countdown_date"></span>HOURS</li>
-        <li style=""><span id="minutes" class="countdown_date"></span>MINUTES</li>
-        <li style="border-right: 0px;"><span id="seconds" class="countdown_date"></span>SECONDS</li>
-      </ul>
-      
-        <div id="countdownDate" hidden="">2025-06-25T19:00:00.000+08:00</div>
-      
-  </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
 </div>
 <div class="g-col-6 text_block">
-<section id="about-the-workshop" class="level3">
-<h3 data-anchor-id="about-the-workshop">About the workshop</h3>
-<p>The IIF special workshop on Open Source Forecasting is a two-day event scheduled to take place immediately before the ISF 2025 conference in Beijing. The workshop will host 30 participants, selected by invitation to ensure a diverse group of professionals from academia, industry, and government. To encourage new discussions and ideas, invitees have been chosen to represent a mix of career stages, programming language expertise, and countries.</p>
-<p>The workshop will focus on recent advancements and potential avenues in open-source forecasting software. It aims to establish best practices and encourage collaboration among developers to advance the development and use of open-source tools in forecasting.</p>
-<p>This event is limited to 30 people, and attendance will be by invitation.</p>
-</section>
-<section id="workshop-aims" class="level3">
-<h3 data-anchor-id="workshop-aims">Workshop aims</h3>
-<p>The workshop will focus on recent advancements and potential avenues in open-source forecasting software. It aims to establish best practices and encourage collaboration among developers to advance the development and use of open-source tools in forecasting. There is no registration fee for the workshop, and travel support is available for Early Career Forecasters (ECFs) and invitees from low-SES backgrounds (by application).</p>
-</section>
-<section id="workshop-topics" class="level3">
-<h3 data-anchor-id="workshop-topics">Workshop topics</h3>
+<section id="mobile-payments" class="level3">
+<h3 data-anchor-id="mobile-payments">Mobile Payments</h3>
+<p>Setting up mobile payments with WeChat and/or Alipay is essential when traveling to Beijing, as many vendors and services prefer or only accept these digital payment methods.</p>
+<p>Before travelling, install WeChat and/or Alipay and create an account with your mobile number. Follow these instructions to add your payment card:</p>
 <ul>
-<li>Forecasting frameworks design (fable, sktime, gluonts, statsforecast, etc.)</li>
-<li>Large forecasting models (foundation models, neural networks, etc.)</li>
-<li>Exploratory time series analysis (data, visualization, evaluation, etc.)</li>
-<li>Future developments for forecasting software (current plans, open problems, etc.)</li>
-<li>Forecasting at scale (hierarchical, big data, optimization, etc.)</li>
-<li>Driving innovations in forecasting (new developments, their implementation and promotion)</li>
+<li><strong>WeChat</strong>: <a href="https://www.trip.com/guide/phone/wechat-pay-for-foreigners.html" class="uri">https://www.trip.com/guide/phone/wechat-pay-for-foreigners.html</a></li>
+<li><strong>Alipay</strong>: <a href="https://www.trip.com/guide/phone/how-to-use-alipay.html" class="uri">https://www.trip.com/guide/phone/how-to-use-alipay.html</a></li>
+</ul>
+</section>
+<section id="internet-services" class="level3">
+<h3 data-anchor-id="internet-services">Internet Services</h3>
+<p>Many internet services commonly used outside of China are blocked within China. While VPNs are an option, they can be unreliable due to updates in China’s firewall. International roaming services allow unblocked access to the internet, which includes many travel SIMs for China (roaming from Hong Kong).</p>
+<ul>
+<li><p><strong>Maps:</strong> Download offline maps before travelling. Google Maps is incomplete at best and doesn’t have public transport information. Consider using Chinese apps for navigation, such as Baidu Maps or Amap (which both have English language support).</p></li>
+<li><p><strong>Translation:</strong> Install Google Translate and download the Chinese language pack for offline use before travelling.</p></li>
+<li><p><strong>Email:</strong> Many commonly used email services (such as Gmail and Outlook) are unavailable in China, set away responders and consider using a roaming SIM for email access.</p></li>
+</ul>
+</section>
+<section id="transport" class="level3">
+<h3 data-anchor-id="transport">Transport</h3>
+<ul>
+<li><p><strong>Trains:</strong> The Beijing metro accepts international payment cards (and mobile tap payments).</p></li>
+<li><p><strong>Taxis:</strong> Taxis are plentiful in Beijing, but ensure the driver uses the meter. Have your destination(s) written in Chinese and point to where you want to go.</p></li>
+<li><p><strong>Didi:</strong> Didi is the Uber of China, and can be accessed in English from within the Alipay app.</p></li>
 </ul>
 </section>
 </div>
 <div class="g-col-6 img_margin">
-<p><img src="./img/hanson-lu-_8EFj6ISA08-unsplash.jpg" class="img_block img-fluid"></p>
-</div>
-<div class="g-col-6" style="margin-left:5%;">
-<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=116.32416486740114%2C39.97245011637222%2C116.3524889945984%2C39.987905879411656&amp;layer=mapnik&amp;marker=39.98017843488714%2C116.33832693099976" style="width:100%;height:500px;">
-</iframe>
-</div>
-<div class="g-col-6 text_block" style="margin-left:0;margin-right:5%">
-<section id="schedule" class="level3">
-<h3 data-anchor-id="schedule">Schedule</h3>
-<ul>
-<li>25th June 6.00 pm – 8.30 pm: Welcome reception dinner</li>
-<li>26th June 9.00 am – 5.00 pm: Workshop (day 1)</li>
-<li>27th June 9.00 am – 5.00 pm: Workshop (day 2)</li>
-</ul>
-<p>A complete program can be found <a href="./program/schedule/index.html">here</a>.</p>
-</section>
-<section id="venue" class="level3">
-<h3 data-anchor-id="venue">Venue</h3>
-<p>The workshop will be at <a href="https://ev.buaa.edu.cn/">Beihang University</a> in the Haidian district of Beijing, China. A welcome reception dinner will be hosted at the nearby <a href="http://www.visionhotelbeijing.com/">Vision Hotel</a>.</p>
-</section>
-<section id="accommodation" class="level3">
-<h3 data-anchor-id="accommodation">Accommodation</h3>
-<p>There are several accommodation options available nearby, and we would like to recommend the <a href="http://www.visionhotelbeijing.com/">Vision Hotel</a> as a convenient choice. The Vision Hotel is a 5-minute walk from Beihang University. More information can be found in the invitation email.</p>
-</section>
-<section id="getting-there" class="level3">
-<h3 data-anchor-id="getting-there">Getting there</h3>
-<p>There are regular trains to the venue at Beihang University. We recommend taking the Beijing Metro line 10 or 27 to stop at 西土城 (Xītǔchéng) station which is nearest to <a href="https://www.openstreetmap.org/relation/18849853">Beihang University</a> and the <a href="https://www.openstreetmap.org/way/248791419">Vision Hotel</a>. Alternatively, the Beijing Metro line 13 can be taken to 知春路 (Zhīchūn Lù / Zhichun Road) station, which is also nearby.</p>
-</section>
-</div>
-<!-- ::: {.g-col-12 .full_text_block} -->
-<!-- ### Venue -->
-<!-- ::: -->
-<div id="listing-sponsors" class="g-col-12 quarto-listing quarto-listing-container-custom">
-<div class="sponsorsFooter">
-      <h1 id="sponsorTitle" data-default-title="<strong>Sponsors</strong>"><strong>Sponsors</strong></h1>
-      <ul>
-        
-                            <li><a href="https://forecasters.org/" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/iif.jpg" alt="International Institute of Forecasters logo"></a></li>
-        
-                            <li><a href="https://www.nixtla.io/" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/nixtla.png" alt="nixtla logo"></a></li>
-        
-                            <li><a href="https://ev.buaa.edu.cn" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/beihang.svg" alt="Beihang University logo"></a></li>
-        
-                            <li><a href="https://www.monash.edu" target="_blank" class="sblogos__link"><img class="sblogos__img" src="./img/mbs.png" alt="Monash University logo"></a></li>
-        
-      </ul>
-    </div>
+<p><img src="../img/hanson-lu-_8EFj6ISA08-unsplash.jpg" class="img_block img-fluid"></p>
 </div>
 </div>
 
-
-</div>
 
 
 
 <!-- plausible --> 
 <script defer="" data-domain="event.nectric.com.au" src="https://track.mitchelloharawild.com/js/plausible.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-<script>
-
-//countdown timer
-(function () {
-  const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
-
-  let deadline = document.getElementById("countdownDate").innerText//"Sept 21, 2023 23:59:00",
-  console.log(deadline);
-        countDown = new Date(deadline).getTime(),
-      x = setInterval(function() {    
-
-        let now = new Date().getTime(),
-            distance = countDown - now;
-
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-        //do something later when date is reached
-        if (distance < 0) {
-           headline = document.getElementById("headline");
-		document.getElementById("days").innerText = 0;
-		document.getElementById("hours").innerText = 0;
-		document.getElementById("minutes").innerText = 0;
-		document.getElementById("seconds").innerText = 0;
-           //countdown = document.getElementById("countdown");
-           //content = document.getElementById("content");
-
-          headline.innerText = "THE CONFERENCE HAS BEGUN!";
-		document.getElementById("btn_store").disabled = true
-          //countdown.style.display = "none";
-          //content.style.display = "block";
-
-          clearInterval(x);
-        }
-        //seconds
-      }, 0)
-  }());
-    </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -813,7 +614,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
