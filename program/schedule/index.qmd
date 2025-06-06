@@ -7,36 +7,51 @@ pagetitle: "Schedule"
 # Schedule
 :::
 
-::: {.g-col-6 .text_block}
+::: {.g-col-12 .full_text_block}
 Please note that all session times are listed below in CST (China Standard Time, GMT+8).
 
-### 25th June 2025
+### 25th June
 
--   6:00pm - 8:30pm: Welcome reception / social event (Vision Hotel)
+-   6:00pm - 8:30pm: Welcome reception dinner
 
-### 26th June 2025 (day 1)
 
--   9.00am – 10.30am: Session 1 (2x30min presentations, 2x15min discussion)
--   10.30am – 11.00am: Morning tea
--   11.00am – 12.30pm: Session 2 (2x30min presentations, 2x15min discussion)
--   12.30pm – 1.30pm: Lunch
--   1.30pm – 3.00pm: Session 3 (2x30min presentations, 2x15min discussion)
--   3.00pm – 3.30pm: Afternoon tea
--   3.30pm – 5.00pm: Open problems (4x20min short talks)
+### 26th June
 
-### 27th June 2025 (day 2)
 
--   9.00am – 10.30am: Session 1 (2x30min presentations, 2x15min discussion)
--   10.30am – 11.00am: Morning tea
--   11.00am – 12.30pm: Session 2 (2x30min presentations, 2x15min discussion)
--   12.30pm – 1.30pm: Lunch
--   1.30pm – 3.00pm: Session 3 (2x30min presentations, 2x15min discussion)
--   3.00pm – 3.30pm: Afternoon tea
--   3.30pm – 5.00pm: Open problems (4x20min short talks)
-:::
+| Time         | Activity/Presenter                        | Topic                                             | Discussants               |
+|--------------|-------------------------------------------|---------------------------------------------------|---------------------------|
+| 09:00–09:05  | Welcome                                   |                                                   |                           |
+| 09:05–09:45  | Rob Hyndman                              | 25 years of open source forecasting software      |                           |
+| 09:45–10:25  | Mitchell O'Hara-Wild                      | Forecasting framework packages for R              | Anthony Bagnall          |
+| 10:25–10:55  | **Morning Tea**                               |                                                   |                           |
+| 10:55–11:35  | Daniele Girolimetto                       | FoReco: Forecast reconciliation in R              | Charupriya Sharma         |
+| 11:35–12:15  | Lorenzo Zambon & Anubhab Biswas           | Probabilistic forecast reconciliation             | Shanika Wikramasurya      |
+| 12:15–13:45  | **Lunch**                                     |                                                   |                           |
+| 13:45–14:25  | Kandrika Pritularga                       | Forecasting and Analytics with ADAM               | Tomasz Wojciech Wozniak   |
+| 14:25–15:05  | Filotas Theodosiou                        | Migrating ADAM's capabilities into Python         | Pablo Montero-Manso       |
+| 15:05–15:35  | **Afternoon Tea**                             |                                                   |                           |
+| 15:35–16:15  | Tomasz Wojciech Wozniak                   | Bayesian Structural Vector Autoregressions        | Rob Hyndman               |
+| 16:15–16:55  | Anirban Ray                               | TBA                                               | TBA                       |
+| 16:55–17:00  | Closing Remarks for the First Day         |                                                   |                           |
 
-::: {.g-col-6 .img_margin}
-![](/img/marc-schulte-a2g3LM0cGFg-unsplash.jpg){.img_block width="99%"}
+---
+
+## 27th June
+
+| Time         | Activity/Presenter                        | Topic                                             | Discussants               |
+|--------------|-------------------------------------------|---------------------------------------------------|---------------------------|
+| 09:00–09:40  | Pablo Montero-Manso                       | TBA                                               | Kandrika Pritularga       |
+| 09:40–10:20  | Anthony Bagnall                           | Forecasting with aeon                             | Mitchell O'Hara-Wild      |
+| 10:20–10:50  | **Morning Tea**                               |                                                   |                           |
+| 10:50–11:30  | Azul Garza                                | TBA                                               | Filotas Theodosiou        |
+| 11:30–12:10  | Haixu Wu                                  | TBA                                               | Arjun Ashok               |
+| 12:10–13:40  | **Lunch**                                     |                                                   |                           |
+| 13:40–14:20  | Charupriya Sharma                         | FlowRec, reformulation of forecast reconciliation | Daniele Girolimetto       |
+| 14:20–15:00  | Arjun Ashok                               | Context-aided forecasting                         | Joaquin Amat Rodrigo      |
+| 15:00–15:30  | **Afternoon Tea**                             |                                                   |                           |
+| 15:30–16:10  | Resul Akay                                | Durbyn.jl                                         | Yangzhuoran Yang          |
+| 16:10–16:50  | Mariana Menchero García                   | StatsForecast                                     | Resul Akay                |
+| 16:50–17:00  | Closing Remarks                           |                                                   |                           |
 :::
 
 <div>
