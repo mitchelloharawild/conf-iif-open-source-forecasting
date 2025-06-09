@@ -44,7 +44,7 @@ Please note that all session times are listed below in CST (China Standard Time,
 | 09:40–10:20  | Anthony Bagnall                           | Forecasting with aeon                             | Mitchell O'Hara-Wild      |
 | 10:20–10:50  | **Morning Tea**                               |                                                   |                           |
 | 10:50–11:30  | Azul Garza                                | TBA                                               | Filotas Theodosiou        |
-| 11:30–12:10  | Haixu Wu                                  | TBA                                               | Arjun Ashok               |
+| 11:30–12:10  | Haixu Wu                                  | Deep Time Series Forecasting: Tools and Open Challenges | Arjun Ashok               |
 | 12:10–13:40  | **Lunch**                                     |                                                   |                           |
 | 13:40–14:20  | Charupriya Sharma                         | FlowRec, reformulation of forecast reconciliation | Daniele Girolimetto       |
 | 14:20–15:00  | Arjun Ashok                               | Context-aided forecasting                         | Joaquin Amat Rodrigo      |
