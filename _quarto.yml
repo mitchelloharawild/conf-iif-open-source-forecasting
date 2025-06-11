@@ -8,13 +8,6 @@ website:
   description: "A special IIF workshop (conference) on open source forecasting software"
   site-url: "https://event.nectric.com.au/iif-oss"
   
-  announcement: 
-    icon: megaphone-fill
-    dismissable: true
-    content: "Save the date! This workshop will run from June 25th - June 27th."
-    type: warning
-    position: below-navbar
-  
   navbar:
     logo: img/iif.png
     background: light
