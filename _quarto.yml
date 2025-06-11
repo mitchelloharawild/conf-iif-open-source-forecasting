@@ -28,7 +28,7 @@ website:
       - text: Schedule
         href: program/schedule/
       - text: Participants
-        href: program/speakers/
+        href: program/participants/
       # - text: Register
       #   href: register.qmd
       - text: Code of conduct
