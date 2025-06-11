@@ -146,3 +146,31 @@
   social:
   - github: https://github.com/elephaint
   - linkedin: https://www.linkedin.com/in/orsprangers/
+- name: Anirban Ray
+  affiliation: sktime
+  thumbnail: https://avatars.githubusercontent.com/u/39331844?v=4
+  social:
+  - github: https://github.com/yarnabrina
+  - linkedin: https://in.linkedin.com/in/yarnabrina
+- name: Franz Király
+  affiliation: German Center for Open Source AI
+  thumbnail: https://avatars.githubusercontent.com/u/7985502?v=4
+  social:
+  - github: https://github.com/fkiraly
+  - linkedin: https://www.linkedin.com/in/franz-kir%C3%A1ly-10a1391ba/
+- name: Shanika Wickramasuriya
+  affiliation: Monash University
+  thumbnail: https://avatars.githubusercontent.com/u/16096072?v=4
+  social:
+  - github: https://github.com/ShanikaLW
+- name: Bahman Rostami-Tabar
+  affiliation: Cardiff University
+  thumbnail: https://avatars.githubusercontent.com/u/25769816?v=4
+  social:
+  - github: https://github.com/bahmanrostamitabar/
+- name: Manu Joseph
+  affiliation: Walmart Marketplace
+  thumbnail: https://avatars.githubusercontent.com/u/10508493?v=4
+  social:
+  - github: https://github.com/manujosephv
+  - linkedin: https://www.linkedin.com/in/manujosephv/

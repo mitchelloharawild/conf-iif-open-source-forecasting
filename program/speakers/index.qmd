@@ -1,5 +1,5 @@
 ---
-pagetitle: "Speakers"
+pagetitle: "Participants"
 
 listing:
   - id: speakers
@@ -9,7 +9,7 @@ listing:
 
 :::::: grid
 ::: {#sponsors_banner .g-col-12 .title}
-# Speakers
+# Participants
 :::
 
 ::: {#speakers .g-col-12}
