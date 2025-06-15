@@ -16,7 +16,7 @@ format:
 ::: {.g-col-12 .full_text_block}
 
 ```{=html}
-<pretalx-schedule event-url="https://conf.nectric.com.au/iif-osf-2025/" locale="en" style="--pretalx-clr-primary: #3aa57c"></pretalx-schedule>
+<pretalx-schedule event-url="https://conf.nectric.com.au/iif-osf-2025/" locale="en" style="--pretalx-clr-primary: #25AEAF"></pretalx-schedule>
 <noscript>
    <div class="pretalx-widget">
         <div class="pretalx-widget-info-message">
