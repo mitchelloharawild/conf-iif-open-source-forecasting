@@ -42,13 +42,6 @@
     "text": "Acknowledgements\nThis code of conduct was adapted from the useR! conference’s code of conduct and the rOpenSci’s code of conduct."
   },
   {
-    "objectID": "program/schedule/index.html#th-june-2",
-    "href": "program/schedule/index.html#th-june-2",
-    "title": "Workshop on Open Source Forecasting",
-    "section": "27th June",
-    "text": "27th June\n\n\n\n\n\n\n\n\n\nTime\nActivity/Presenter\nTopic\nDiscussants\n\n\n\n\n09:00–09:40\nPablo Montero-Manso\nForecasting 2.0: A Framework for Near-Optimal Time Series Forecasting and Inference via Pre-Trained Models\nKandrika Pritularga\n\n\n09:40–10:20\nAnthony Bagnall\nForecasting with aeon\nMitchell O’Hara-Wild\n\n\n10:20–10:50\nMorning Tea\n\n\n\n\n10:50–11:30\nAzul Garza\nTBA\nFilotas Theodosiou\n\n\n11:30–12:10\nHaixu Wu\nDeep Time Series Forecasting: Tools and Open Challenges\nArjun Ashok\n\n\n12:10–13:40\nLunch\n\n\n\n\n13:40–14:20\nCharupriya Sharma\nFlowRec, reformulation of forecast reconciliation\nDaniele Girolimetto\n\n\n14:20–15:00\nArjun Ashok\nContext-aided forecasting\nJoaquin Amat Rodrigo\n\n\n15:00–15:30\nAfternoon Tea\n\n\n\n\n15:30–16:10\nResul Akay\nDurbyn.jl: A Julia Framework for Time Series Forecasting\nYangzhuoran Yang\n\n\n16:10–16:50\nMariana Menchero García\nA Look Under the Hood of StatsForecast\nResul Akay\n\n\n16:50–17:00\nClosing Remarks"
-  },
-  {
     "objectID": "about/sponsors/index.html#sponsorship-1",
     "href": "about/sponsors/index.html#sponsorship-1",
     "title": "Workshop on Open Source Forecasting",
