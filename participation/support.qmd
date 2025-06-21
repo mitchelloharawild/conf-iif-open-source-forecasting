@@ -10,11 +10,11 @@ pagetitle: "Travel Support"
 ::: {.g-col-6 .text_block}
 ### Scholarships
 
-Travel support in the form of access scholarships are available to invitees from low-SES backgrounds (such as middle-lower income countries) and early-career forecasters (ECFs). The value of the scholarship ranges from US\$500 - US\$1,000, and they are available on a limited basis.
+Travel support grants are available to invitees from low-SES backgrounds (such as middle-lower income countries) and early-career forecasters (ECFs). The value of the scholarship ranges from US\$500 - US\$1,000, and they are available on a limited basis.
 
-Additional information about these scholarships can be found in your invitation email.
+Additional information about these grants can be found in your invitation email.
 
-These scholarships are made available with thanks to the generous support of our [event sponsors](/about/sponsors).
+These grants are made available with thanks to the generous support of our [event sponsors](/about/sponsors).
 :::
 
 ::: {.g-col-6 .img_margin}

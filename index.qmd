@@ -49,18 +49,14 @@ The workshop will focus on recent advancements and potential avenues in open-sou
 -   Future developments for forecasting software (current plans, open problems, etc.)
 -   Forecasting at scale (hierarchical, big data, optimization, etc.)
 -   Driving innovations in forecasting (new developments, their implementation and promotion)
+
 :::
 
 ::: {.g-col-6 .img_margin}
 ![](/img/hanson-lu-_8EFj6ISA08-unsplash.jpg){.img_block}
 :::
 
-::: {.g-col-6 style="margin-left:5%;"}
-<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=116.32416486740114%2C39.97245011637222%2C116.3524889945984%2C39.987905879411656&amp;layer=mapnik&amp;marker=39.98017843488714%2C116.33832693099976" style="width:100%;height:500px;"></iframe>
-:::
-
-
-::: {.g-col-6 .text_block style="margin-left:0;margin-right:5%"}
+::: {.g-col-6 .text_block}
 
 ### Schedule
 
@@ -72,23 +68,25 @@ A complete program can be found [here](program/schedule/index.qmd).
 
 ### Venue
 
-The workshop will be at [Beihang University](https://ev.buaa.edu.cn/) in the Haidian district of Beijing, China. A welcome reception dinner will be hosted at the nearby [Vision Hotel](http://www.visionhotelbeijing.com/).
-
-### Accommodation
-
-There are several accommodation options available nearby, and we would like to recommend the [Vision Hotel](http://www.visionhotelbeijing.com/) as a convenient choice. The Vision Hotel is a 5-minute walk from Beihang University. More information can be found in the invitation email.
+The workshop will be at [Beihang University](https://ev.buaa.edu.cn/) in the Haidian district of Beijing, China. The workshop will also run hybrid to enable participation from invitees unable to travel.
 
 ### Getting there
 
 There are regular trains to the venue at Beihang University. We recommend taking the Beijing Metro line 10 or 27 to stop at 西土城 (Xītǔchéng) station which is nearest to [Beihang University](https://www.openstreetmap.org/relation/18849853) and the [Vision Hotel](https://www.openstreetmap.org/way/248791419). Alternatively, the Beijing Metro line 13 can be taken to 知春路 (Zhīchūn Lù / Zhichun Road) station, which is also nearby.
 
+At Beihang University (Xueyuan Road Campus), the workshop is at Block A in the New Main Building (北京航空航天大学(学院路校区)新主楼-A座).
+
+You can navigate to the building with:
+
+* Amap: <https://surl.amap.com/3KJZILn1p30b>
+* Baidu Maps: <https://j.map.baidu.com/14/goW>
+* OpenStreetMap: <https://www.openstreetmap.org/?#map=19/39.979603/116.346057>
+* Google Maps: <https://maps.app.goo.gl/qnWoCsGgQVfSVQDc8>
 :::
 
-
-<!-- ::: {.g-col-12 .full_text_block} -->
-<!-- ### Venue -->
-
-<!-- ::: -->
+::: {.g-col-6 .img_margin}
+<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=116.33287668228151%2C39.97185812402583%2C116.36012792587282%2C39.98731402095293&amp;layer=mapnik&amp;marker=39.979586509483%2C116.34650230407715" class = "img_block" style="width:100%;height:500px;margin-top:20px"></iframe>
+:::
 
 ::: {#sponsors .g-col-12}
 :::
