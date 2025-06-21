@@ -313,18 +313,16 @@ footer.footer .nav-footer, #quarto-header nav {
 }
 
 .card-columns {
-  @include media-breakpoint-only(sm) {
-    column-count: 1;
-  }
-  @include media-breakpoint-only(md) {
-    column-count: 1;
-  }
-  @include media-breakpoint-only(lg) {
-    column-count: 2;
-  }
-  
-  column-count: 4;
+  column-count: 4; // default for XL and up
   margin: 0 25px;
+
+  @include media-breakpoint-down(lg) {
+    column-count: 2; // 992px and below
+  }
+
+  @include media-breakpoint-down(sm) {
+    column-count: 1; // 576px and below
+  }
 }
 
 .card {
