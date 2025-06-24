@@ -31,9 +31,9 @@ We are grateful to the sponsors of this event which have fully funded the worksh
 
 * Monash University
 
-## Contact
+<!-- ## Contact -->
 
-For sponsorship inquiries, please contact [mitch.ohara-wild@monash.edu](mailto:mitch.ohara-wild@monash.edu). Further sponsorship will enable us to provide more travel support for attendees.
+<!-- For sponsorship inquiries, please contact [mitch.ohara-wild@monash.edu](mailto:mitch.ohara-wild@monash.edu). Further sponsorship will enable us to provide more travel support for attendees. -->
 
 :::
 
