@@ -4,9 +4,6 @@
     - name: nixtla
       href: https://www.nixtla.io/
       thumbnail: /img/nixtla.png
-    - name: Beihang University
-      href: https://ev.buaa.edu.cn
-      thumbnail: /img/beihang.svg
     - name: Monash University
       href: https://www.monash.edu
       thumbnail: /img/mbs.png

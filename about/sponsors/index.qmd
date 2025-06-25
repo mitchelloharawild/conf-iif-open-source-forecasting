@@ -12,7 +12,6 @@ listing:
 # Sponsorship
 :::
 
-
 ::: {#sponsorship .g-col-6 .full_text_block}
 ## Sponsorship
 
@@ -20,26 +19,20 @@ We are grateful to the sponsors of this event which have fully funded the worksh
 
 **Gold sponsors**
 
-* nixtla
-* International Institute of Forecasters
-
-**Venue sponsor**
-
-* Beihang University
+-   nixtla
+-   International Institute of Forecasters
 
 **Sponsors**
 
-* Monash University
+-   Monash University
 
 <!-- ## Contact -->
 
 <!-- For sponsorship inquiries, please contact [mitch.ohara-wild@monash.edu](mailto:mitch.ohara-wild@monash.edu). Further sponsorship will enable us to provide more travel support for attendees. -->
-
 :::
 
 ::: {#sponsors .g-col-6}
 :::
-
 
 <div>
 
