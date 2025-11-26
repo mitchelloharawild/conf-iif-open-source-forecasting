@@ -77,6 +77,11 @@
   - website: https://ashok-arjun.github.io/
   - twitter: https://twitter.com/arjunashok37
   - linkedin: https://www.linkedin.com/in/arjun-ashok-psg
+- name: Dennis Bader
+  affiliation: Unit8 SA
+  thumbnail: https://avatars.githubusercontent.com/u/84317528?v=4
+  social:
+  - github: https://github.com/dennisbader
 - name: Pablo Montero-Manso
   affiliation: University of Sydney
   thumbnail: https://avatars.githubusercontent.com/u/36616292?v=4
@@ -99,6 +104,11 @@
   social:
   - github: https://github.com/FilTheo
   - linkedin: https://www.linkedin.com/in/filotas-theodosiou/
+- name: Adam Wang
+  affiliation: University of Melbourne
+  thumbnail: https://avatars.githubusercontent.com/u/125186547?v=4
+  social:
+  - github: https://github.com/adamwang15
 - name: Nuwani Palihawadana
   affiliation: Monash University, Australia
   thumbnail: https://avatars.githubusercontent.com/u/60213950?v=4
