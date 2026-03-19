@@ -1,0 +1,35 @@
+---
+pagetitle: 'IIF OSF 2025: Deep Time Series Forecasting: Tools and Open Challenges'
+date: 2025-06-27 11:30:00
+time: 11:30 AM
+title: 'Deep Time Series Forecasting: Tools and Open Challenges'
+description: Deep learning has recently shown promise for time series forecasting,
+  raising questions about when it truly outperforms traditional statistical methods.
+  In this session, recent advances in deep time series models will be reviewed, the
+  open-source libraries TSLib and OpenLTM will be introduced, and future research
+  directions in deep learning-based time series forecasting will be discussed.
+speakers: Haixu Wu
+discussant: Arjun Ashok
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Deep Time Series Forecasting: Tools and Open Challenges
+
+### June 27, 11:30 AM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+Can neural networks outperform traditional statistical methods, or do they merely add complexity without consistent gains? In this talk, I will review the progress in deep time series models in the past few years and introduce TSLib and OpenLTM, which are widely used open-source libraries for deep learning researchers. Moreover, this talk will also cover some opening discussions for future research on deep learning-based time series forecasting.
+
+{{< video https://www.youtube.com/watch?v=XFUqEybjILQ >}}
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

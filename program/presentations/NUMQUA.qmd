@@ -1,0 +1,42 @@
+---
+pagetitle: 'IIF OSF 2025: FoReco: From foundations to frontiers'
+date: 2025-06-26 10:55:00
+time: 10:55 AM
+title: 'FoReco: From foundations to frontiers'
+description: Forecast reconciliation is presented as a solution to the inconsistency
+  problems that arise when independently generating multiple time series forecasts
+  across different aggregation levels. The session topics will be focused on how the
+  FoReco R package implements classical and modern reconciliation methods (including
+  hierarchical, grouped, temporal, cross-temporal, non-negative, and probabilistic
+  reconciliation under various constraints), along with future extensions such as
+  standardized interfaces, machine learning-based reconciliation, coherent forecast
+  combination, and a forthcoming Python implementation.
+speakers: Daniele Girolimetto 
+discussant: Charupriya Sharma
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# FoReco: From foundations to frontiers
+
+### June 26, 10:55 AM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+In many forecasting applications, producing multiple time series forecasts across different aggregation levels (such as regions, product categories, or time scales) is both common and necessary. However, independently generated forecasts often fail to respect the underlying constraints linking these series, leading to inconsistencies that can compromise decision-making analyses. Forecast reconciliation addresses this challenge, while preserving or even improving forecast accuracy.
+FoReco is a dedicated open-source R package that systematically implements forecast reconciliation approaches, providing robust tools for obtaining coherent forecasts in a multivariate setting. It supports hierarchical, grouped, and general linearly constrained time series, and implements both classical and modern reconciliation approaches, including bottom-up, top-down, middle-out, and optimal combination methods. Its main features include full support for cross-sectional, temporal, and cross-temporal reconciliation, availability of both projection and structural formulations, and a wide range of flexible covariance matrices based on sparse structures. Additional features include methods for non-negative reconciliation, reconciliation under immutable constraints, and both point and probabilistic forecast reconciliation using parametric or non-parametric approaches.
+
+In conclusion, future development aim to expand both its methodological scope and practical usability. A central objective is to build a broader family of packages dedicated to forecast combination and reconciliation, unified by standardized input-output interfaces. Notable forthcoming additions include support for machine learning-based reconciliation methods and coherent forecast combination, the latter already available in the R package FoCo2. Furthermore, a Python implementation is currently in development to enhance accessibility and integration with modern data science workflows.
+
+{{< video https://www.youtube.com/watch?v=vEGdoao_ygc >}}
+
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

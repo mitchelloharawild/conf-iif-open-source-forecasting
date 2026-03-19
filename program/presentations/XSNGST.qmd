@@ -1,0 +1,35 @@
+---
+pagetitle: 'IIF OSF 2025: Designing extensible forecasting frameworks'
+date: 2025-06-26 09:45:00
+time: 09:45 AM
+title: Designing extensible forecasting frameworks
+description: A well-designed interface is crucial for making statistical forecasting
+  software easy to learn and use, particularly when defining a cohesive design language
+  for the forecasting workflow. In this session, the design decisions behind the fable
+  forecasting framework will be examined, and the extensibility of workflow elements
+  such as models, accuracy metrics, and forecasting techniques will be discussed.
+speakers: Mitchell O'Hara-Wild
+discussant: Anthony Bagnall
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Designing extensible forecasting frameworks
+
+### June 26, 09:45 AM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+A well designed interface is instrumental in making software easy to learn and use. The design of statistical software is inherently subjective, and there are many difficult decisions involved in creating interfaces that work cohesively within the intended domain. A forecasting framework sets out the design language for the forecasting workflow, guiding users conceptually about how different steps relate to one another. Making each element of the workflow extensible enables developers to implement new models, accuracy metrics, or other forecasting techniques that can be immediately used in conjunction with other forecasting elements. In this talk, I will examine the design decisions made when creating fable, the tidy time series forecasting successor of the forecast package.
+
+{{< video https://www.youtube.com/watch?v=_Xy4Si6T5gg >}}
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

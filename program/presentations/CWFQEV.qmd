@@ -1,0 +1,44 @@
+---
+pagetitle: 'IIF OSF 2025: Forecasting 2.0: A Framework for Near-Optimal Time Series
+  Forecasting and Inference via Pre-Trained Models'
+date: 2025-06-27 09:00:00
+time: 09:00 AM
+title: 'Forecasting 2.0: A Framework for Near-Optimal Time Series Forecasting and
+  Inference via Pre-Trained Models'
+description: A new open-source framework for time series modeling is introduced that
+  uses neural networks trained on simulated data to deliver near-optimal forecasting
+  and inference, outperforming traditional models and complex neural architectures
+  while remaining accessible in R and Python. In the session, the underlying “grammar”
+  for optimal time series model design, the use of pre-trained neural estimators as
+  drop-in replacements for classical methods, and the extensibility of the framework
+  to non-Gaussian, nonlinear, censored, and time-varying scenarios will be discussed.
+speakers: Pablo Montero-Manso
+discussant: Kandrika Pritularga
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Forecasting 2.0: A Framework for Near-Optimal Time Series Forecasting and Inference via Pre-Trained Models
+
+### June 27, 09:00 AM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+We introduce a new framework for time series modeling that approximates optimal performance in both forecasting and inference. Implementations are available in both R and Python. We will present the underlying statistical and software design principles—what we call a grammar for optimal time series model design. 
+Traditional models such as ARIMA and Exponential Smoothing rely on estimation techniques like Maximum Likelihood, which do not directly optimize for forecast error or bias. This disconnect is even more pronounced in tasks such as model selection and model combination, where optimality is rarely addressed.
+
+Our framework leverages neural networks trained on simulations of time series models to act as near-optimal estimators and forecasters tailored to specific optimality criteria. A suite of pre-trained networks is provided as drop-in replacements for classical estimators commonly found in statistical software. These networks, even when approximating simple statistical models, achieve state-of-the-art performance on major time series benchmark datasets—outperforming both traditional estimators and more complex neural architectures, including foundation models. 
+
+The framework is highly extensible, making it easy to adapt to non-Gaussian distributions, complex nonlinear dynamics, censoring, time-varying parameters, and other scenarios that are easy to simulate but intractable analytically. Importantly, the entire framework is fully open: all model weights, architectures, training data, and pipelines are open-sourced and designed to be trainable on consumer-grade hardware.
+
+{{< video https://www.youtube.com/watch?v=NGy-kfKKojo >}}
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

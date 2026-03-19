@@ -1,0 +1,40 @@
+---
+pagetitle: 'IIF OSF 2025: Probabilistic forecast reconciliation with bayesRecon'
+date: 2025-06-26 11:35:00
+time: 11:35 AM
+title: Probabilistic forecast reconciliation with bayesRecon
+description: Forecasts in hierarchical time series often violate aggregation constraints,
+  motivating probabilistic reconciliation methods and software solutions. In this
+  session, the bayesRecon (R) and bayesreconpy (Python) packages are introduced and
+  demonstrated, and their probabilistic reconciliation approach, support for multiple
+  forecast types (Gaussian, non-Gaussian, discrete) and mixed hierarchies, unified
+  cross-language interface, and licensing are discussed.
+speakers: Lorenzo Zambon & Anubhab Biswas
+discussant: Olivier Sprangers
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Probabilistic forecast reconciliation with bayesRecon
+
+### June 26, 11:35 AM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+Forecasts generated for each series in a hierarchy often violate aggregation constraints. The packages bayesRecon (R) and bayesreconpy (Python) implement probabilistic forecast reconciliation via conditioning for hierarchical time series.  
+
+Our packages reconcile probabilistic forecasts to ensure coherence across the hierarchy. They support different types of base forecasts: Gaussian, continuous non-Gaussian, discrete. They also support mixed hierarchies with discrete and continuous forecasts on different levels. The interface is unified across both languages, and the packages are released under an LGPL (≥3) license.
+
+This presentation will introduce the software and demonstrate core functionalities with both R and Python short tutorials.
+
+{{< video https://www.youtube.com/watch?v=dgmWx7koSA4 >}}
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

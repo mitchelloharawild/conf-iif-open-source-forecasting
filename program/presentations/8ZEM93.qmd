@@ -1,0 +1,36 @@
+---
+pagetitle: 'IIF OSF 2025: Durbyn.jl: A Julia Framework for Time Series Forecasting'
+date: 2025-06-27 15:30:00
+time: 03:30 PM
+title: 'Durbyn.jl: A Julia Framework for Time Series Forecasting'
+description: Durbyn.jl is a lightweight, fully Julia-native framework for time series
+  forecasting that balances clarity with computational power for researchers, educators,
+  and practitioners. In the session, its modular architecture, rich suite of classical
+  models, and built-in statistical tools will be discussed and demonstrated.
+speakers: Resul Akay
+discussant: Yangzhuoran Yang
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Durbyn.jl: A Julia Framework for Time Series Forecasting
+
+### June 27, 03:30 PM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+Durbyn.jl is a lightweight, modular, and fully Julia-native framework for time series forecasting. Designed
+with researchers, educators, and practitioners in mind, Durbyn.jl combines clarity with computational power,
+offering a rich suite of classical models and statistical tools within a clean, extensible architecture.
+
+{{< video https://www.youtube.com/watch?v=SLeymEnEDIw >}}
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

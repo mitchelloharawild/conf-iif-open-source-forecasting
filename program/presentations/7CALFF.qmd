@@ -1,0 +1,39 @@
+---
+pagetitle: 'IIF OSF 2025: LLMs Meet Time Series Foundation Models: Are We Ready for
+  Forecasting Agents?'
+date: 2025-06-27 10:50:00
+time: 10:50 AM
+title: 'LLMs Meet Time Series Foundation Models: Are We Ready for Forecasting Agents?'
+description: AI agents are rapidly reshaping many AI applications, but their potential
+  for time series forecasting is still underexplored. In this session, the core concepts
+  of AI agents and their architectures will be revisited, their evolution with foundation
+  models will be traced, and the unique challenges and opportunities of applying agent-based
+  design to forecasting within the open-source ecosystem will be examined.
+speakers: Azul Garza
+discussant: Filotas Theodosiou
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# LLMs Meet Time Series Foundation Models: Are We Ready for Forecasting Agents?
+
+### June 27, 10:50 AM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+AI agents are transforming domains from code generation to autonomous research workflows, yet time series forecasting remains largely unexplored. In this talk, we unpack what AI agents are, how they function, and why they’ve become a central topic in multimodal AI.
+
+We’ll revisit core ideas in agent architectures, trace their emergence alongside foundation models, and explore why forecasting presents a distinctive and promising frontier for agent-based design. This conceptual talk is grounded in the open-source forecasting ecosystem and aims to spark a broader conversation: Are we ready for forecasting agents? And if not, what would it take to be?
+
+{{< video https://www.youtube.com/watch?v=YjQFTjAXFs8 >}}
+
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

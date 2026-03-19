@@ -1,0 +1,44 @@
+---
+pagetitle: 'IIF OSF 2025: A Look Under the Hood of StatsForecast'
+date: 2025-06-27 16:10:00
+time: 04:10 PM
+title: A Look Under the Hood of StatsForecast
+description: StatsForecast is a widely used open-source Python library for statistical
+  and econometric forecasting, originally developed as a Python implementation of
+  models from the forecast R package and now recognized as a key tool in the field.
+  In this session, the architecture and performance of StatsForecast will be examined,
+  the implementations of major model families (including ARIMA, ETS, Theta, MSTL,
+  baseline, and sparse/intermittent series models) will be explored, and planned future
+  features and models will be discussed.
+speakers: Mariana Menchero García
+discussant: Resul Akay
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# A Look Under the Hood of StatsForecast
+
+### June 27, 04:10 PM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+StatsForecast is an open-source Python library that provides a wide range of statistical and econometric forecasting models. It is one of the most widely used forecasting libraries in the field, with over 20 million downloads and more than 4,000 GitHub stars.
+
+In this workshop, we’ll take a look under the hood of StatsForecast. We’ll explain its architecture and what makes it so fast and scalable. We will also examine the implementations of the main model families: ARIMA, ETS, Theta, MSTL, baseline models, and models for sparse and intermittent series.
+
+StatsForecast was recently featured in the Python edition of Forecasting: Principles and Practice, a key reference in the field. This open-source book is available at  and represents an important part of StatsForecast’s history, as the library began as a Python implementation of many models from the forecast R package.
+
+We’ll conclude with a look ahead at planned features and upcoming models for StatsForecast.
+
+{{< video https://www.youtube.com/embed/ncQ8NrQ3Svk >}}
+
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

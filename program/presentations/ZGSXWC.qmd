@@ -1,0 +1,34 @@
+---
+pagetitle: 'IIF OSF 2025: 25 years of open source forecasting software'
+date: 2025-06-26 09:05:00
+time: 09:05 AM
+title: 25 years of open source forecasting software
+description: Open source forecasting software has evolved from a few basic R functions
+  to a rich ecosystem of R, Python, Julia, and C/C++ implementations of established
+  models. In this session, the historical development of these tools will be reviewed
+  and key gaps and areas requiring further attention will be highlighted.
+speakers: Rob Hyndman
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# 25 years of open source forecasting software
+
+### June 26, 09:05 AM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+Twenty-five years ago, the only open source forecasting software available were the HoltWinters(), arima() and StructTS() functions in R. Now we have many R packages available that are widely used, a burgeoning number of Python packages, and a few Julia packages, along with C or C++ implementations of ETS, ARIMA and other well-known models. I will discuss the development of open source forecasting software over the years, and highlight areas needing attention.
+
+{{< video https://www.youtube.com/watch?v=IawB-TalQv8 >}}
+
+:::
+
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

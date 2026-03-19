@@ -1,0 +1,41 @@
+---
+pagetitle: 'IIF OSF 2025: Forecasting smoothly with smooth() package'
+date: 2025-06-26 13:45:00
+time: 01:45 PM
+title: Forecasting smoothly with smooth() package
+description: ADAM (Augmented Dynamic Adaptive Model) is a flexible, R-implemented
+  forecasting framework that unifies and extends ARIMA and ETS methods to handle multiple
+  data structures, distributions, and modelling scenarios. In this session, key topics
+  will be covered including the use of diverse distributions and estimation strategies,
+  the production of flexible forecasts and prediction intervals, and the application
+  of ADAM's tools for model tuning, selection, diagnostics, outlier treatment, and
+  handling of missing data.
+speakers: Kandrika Pritularga
+discussant: Adam Wang
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Forecasting smoothly with smooth() package
+
+### June 26, 01:45 PM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+ADAM (Augmented Dynamic Adaptive Model) is a flexible framework for forecasting using dynamic models. It merges ARIMA and ETS and extends them by implementing explanatory variables, supporting multiple frequencies, and mixture distributions for intermittent demand.
+
+ADAM supports a variety of distributions, including Normal, Generalised Normal, Inverse Gaussian, Gamma and others. It allows users to estimate models using a variety of techniques, including regularisation, recursive and direct strategies, and supports custom loss functions, offering flexibility for research purposes. It also supports a variety of ways to produce forecasts for different situations (including different types of prediction intervals).
+
+ADAM is implemented in the smooth package for R. It is agnostic of the provided data and works with vectors, ts, zoo, tsibble classes, together with matrix, data.frame, data.table and others. The function provides capabilities that include but are not limited to fine-tuning of parameters in models and optimisers, model selection and combination, model diagnostics, outlier detection, missing data handling, and more. ADAM is particularly suitable for analysts who want to get the most from the statistical models and want to bring statistical forecasting to the next level.
+
+{{< video https://www.youtube.com/watch?v=arPffLMYPyU >}}
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

@@ -1,0 +1,46 @@
+---
+pagetitle: 'IIF OSF 2025: Hierarchical Forecast Reconciliation on Networks: A Network
+  Flow Optimization Formulation'
+date: 2025-06-27 13:40:00
+time: 01:40 PM
+title: 'Hierarchical Forecast Reconciliation on Networks: A Network Flow Optimization
+  Formulation'
+description: Hierarchical forecasting often fails to guarantee coherence across aggregation
+  levels (such as state, district, and city), motivating reconciliation methods like
+  FlowRec that reformulate the problem as a network flow optimization to handle general
+  network structures efficiently. In this session, rigorous complexity results for
+  reconciliation under various loss functions, the FlowRec algorithm's computational
+  and structural advantages over MinT (including dynamic, localized, and approximate
+  updates), and empirical evidence of its runtime, memory, and accuracy improvements
+  will be presented.
+speakers: Charupriya Sharma
+discussant: Daniele Girolimetto 
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Hierarchical Forecast Reconciliation on Networks: A Network Flow Optimization Formulation
+
+### June 27, 01:40 PM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+The problem of hierarchical forecasting with reconciliation requires that we forecast values that are part of a hierarchy (e.g.~customer demand on a state, district or city level), and there is a relation between different forecast values (e.g.~all district forecasts should add up to the state forecast). State of the art forecasting provides no guarantee for these desired structural relationships. Reconciliation addresses this problem, which is crucial for organizations requiring coherent predictions across multiple aggregation levels. Current methods like minimum trace (MinT) are mostly limited to tree structures and are computationally expensive for large-scale problems. We introduce FlowRec, which reformulates hierarchical forecast reconciliation as a network flow optimization problem, enabling forecasting on generalized network structures and relationships beyond trees.
+
+We present a rigorous complexity analysis of hierarchical forecast reconciliation under different loss functions. While reconciliation under the ℓ₀ norm is NP-hard, we prove polynomial-time solvability for all ℓ_{p &gt; 0} norms and, more generally, for any strictly convex and continuously differentiable loss function. For sparse networks, FlowRec achieves 𝑂(n² log n) complexity, significantly improving upon MinT's 𝑂(n³). Furthermore, we prove that FlowRec extends MinT beyond tree structures to handle general networks, replacing MinT's error-covariance estimation step with direct network structural information, theoretically justifying its superior computational efficiency.
+
+A key novelty of our approach is its handling of dynamic scenarios: while traditional methods require recomputing both base forecasts and their reconciliation, FlowRec provides efficient localised updates with optimality guarantees. A monotonicity property ensures that when forecasts improve incrementally, the initial reconciliation remains optimal. We also establish efficient, error-bounded approximate reconciliation, enabling fast updates in time-critical applications.
+
+Experiments on both simulated and real benchmarks demonstrate that FlowRec improves runtime by 3-40x, reduces memory usage by 5-7x and improves accuracy over state of the art. These results establish FlowRec as a powerful tool for large-scale hierarchical forecasting applications.
+
+
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

@@ -1,0 +1,35 @@
+---
+pagetitle: 'IIF OSF 2025: The aeon toolkit for time series machine learning'
+date: 2025-06-27 09:40:00
+time: 09:40 AM
+title: The aeon toolkit for time series machine learning
+description: aeon is an open source Python toolkit for time series machine learning,
+  developed by a diverse research-focused team and now expanding its capabilities
+  in forecasting. In this session, an overview of aeon and its newly redesigned forecasting
+  module will be presented, and future development directions and community feedback
+  on the forecasting roadmap will be invited.
+speakers: Anthony Bagnall
+discussant: Mitchell O'Hara-Wild
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# The aeon toolkit for time series machine learning
+
+### June 27, 09:40 AM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+aeon is an open source python toolkit supported by funding agencies in the UK (EPSRC) and Frandce (INRIA). We have a strong group of research-focused core developers comprising seven different nationalities, alongside a broad and expanding user base. aeon includes modules for numerous time series machine learning tasks: classification, clustering, regression, anomaly detection, segmentation, and similarity search, in addition to a range of supporting modules including benchmarking, networking, and transformations. We have recently replaced our legacy forecasting module—which relied on wrappers around other packages—with a completely different new module. Our goal is to maintain a clear structure emphasising custom implementations of the latest machine learning forecasting methods. Our forecasting development team currently includes three academic core developers, a PhD student who joined in 2024, and two Google Summer of Code interns. However, our expertise primarily lies in computer science and machine learning rather than forecasting specifically, and we have not previously published in the forecasting field. This talk will provide a brief overview of aeon and outline our roadmap for the forecasting module. We greatly welcome feedback and suggestions regarding future directions for forecasting in aeon.
+
+{{< video https://www.youtube.com/watch?v=3_trOeE4kJQ >}}
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

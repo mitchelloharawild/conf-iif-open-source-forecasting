@@ -25,8 +25,8 @@ website:
             href: about/committee.qmd
           - text: Sponsors
             href: about/sponsors/
-      - text: Schedule
-        href: program/schedule/
+      - text: Presentations
+        href: program/presentations.qmd
       - text: Participants
         href: program/participants/
       # - text: Register

@@ -1,0 +1,44 @@
+---
+pagetitle: 'IIF OSF 2025: bsvars.org design concept: R packages for Predictive Analyses
+  using Bayesian Structural Vector Autoregressions'
+date: 2025-06-26 15:35:00
+time: 03:35 PM
+title: 'bsvars.org design concept: R packages for Predictive Analyses using Bayesian
+  Structural Vector Autoregressions'
+description: bsvars.org is a family of R packages that provide a fast, user-friendly
+  framework for Bayesian Structural Vector Autoregression analysis in macroeconomics
+  and finance. In the session, key topics will be covered including the use of bsvars
+  and bsvarSIGNs for structural and predictive analysis, the implementation of Bayesian
+  estimation and related tools (forecasting, variance decompositions, impulse responses,
+  historical decompositions), and the challenges and design choices in developing
+  C++-backed R packages for diverse users.
+speakers: Tomasz Wojciech Wozniak
+discussant: Rob Hyndman
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# bsvars.org design concept: R packages for Predictive Analyses using Bayesian Structural Vector Autoregressions
+
+### June 26, 03:35 PM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+bsvars.org is a family of R packages offering a comprehensive framework for Bayesian Structural Vector Autoregression analysis commonly used in empirical macroeconomics and finance. It is designed to serve diverse user communities from academic researchers to applied economists at policy institutions. This software ecosystem combines the convenience of data analysis using R with computational efficiency of compiled C++ code, leveraging packages Rcpp and RcppArmadillo to boost performance of computationally intensive Bayesian estimation procedures.
+
+The packages bsvars and bsvarSIGNs, available on CRAN, provide robust tools for structural and predictive analyses through streamlined workflows. Key functionalities include model specification, estimation with progress monitoring, forecasting, forecast error variance decompositions, impulse response functions, historical decompositions, and others. The framework emphasizes both computational speed and analytical transparency, enabling users to conduct sophisticated econometric analyses with minimal scripting requirements.
+
+In this presentation, we will also talk about our experience when developing packages using C++ code as econometricians and the challenges we faced, focusing on the design features that address the needs of our users.
+
+{{< video https://www.youtube.com/watch?v=Gmd7x0gwS7U >}}
+
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

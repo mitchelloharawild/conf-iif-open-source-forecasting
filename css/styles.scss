@@ -341,6 +341,16 @@ footer.footer .nav-footer, #quarto-header nav {
   margin-top: -2.5px;
 }
 
+.quarto-post .metadata {
+  font-size: 1.1rem;
+  flex: 0 0 max-content;
+
+  .listing-date,
+  .metadata-value {
+    font-size: 1.1rem;
+  }
+}
+
 
 
 /* Responsive Images */

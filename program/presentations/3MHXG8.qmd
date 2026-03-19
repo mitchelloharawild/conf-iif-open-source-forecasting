@@ -1,0 +1,38 @@
+---
+pagetitle: 'IIF OSF 2025: Integrating Smooth Capabilities into Python'
+date: 2025-06-26 14:25:00
+time: 02:25 PM
+title: Integrating Smooth Capabilities into Python
+description: The smooth package's Augmented Dynamic Adaptive Model (ADAM) provides
+  a unified state-space framework that extends classical time series models like ETS,
+  ARIMA, and regression, originally developed in R and now motivating a native Python
+  implementation. In this session, the engineering details of the Python implementation
+  will be presented, including the C++-backed architecture, the refactoring into an
+  idiomatic object-oriented Python API, and the key engineering lessons for cross-language
+  development and use of Large Language Models to accelerate such efforts.
+speakers: Filotas Theodosiou
+discussant: Pablo Montero-Manso
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Integrating Smooth Capabilities into Python
+
+### June 26, 02:25 PM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+The smooth package provides a comprehensive state-space framework for forecasting, centered on the Augmented Dynamic Adaptive Model (ADAM). ADAM offers a unified structure that integrates and extends classical time series models like ETS, ARIMA, and regression beyond their standard implementations. Originally developed within the R statistical environment, the growth of Python's forecasting ecosystem motivated the development of a native implementation for its expanding community of researchers and practitioners. This presentation focuses on the engineering specifics of implementing the smooth framework in Python. We explain the architecture, which utilizes the original C++ backend, and detail the refactoring process used to transform the initial translation into an idiomatic, object-oriented Pythonic API. Finally, we discuss key engineering takeaways on cross-language package development, along with the opportunities presented by modern Large Language Models (LLMs) to accelerate similar development efforts.
+
+{{< video https://www.youtube.com/watch?v=dt_qePM5OSk >}}
+
+:::
+
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

@@ -1,0 +1,22 @@
+---
+pagetitle: "Presentations"
+listing:
+  contents:
+    - "presentations/*.qmd"
+  type: default
+  sort: "date"
+  template: presentations/presentations.ejs.md
+  fields: [title, date, time, speakers, discussant, description]
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Presentations
+:::
+
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+:::: {#listing}
+::::
+
+:::

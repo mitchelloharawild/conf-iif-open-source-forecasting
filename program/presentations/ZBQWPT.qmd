@@ -1,0 +1,45 @@
+---
+pagetitle: 'IIF OSF 2025: Open Source Forecasting in Python: A Survey of Tools, Trends,
+  and Trade-offs'
+date: 2025-06-26 16:15:00
+time: 04:15 PM
+title: 'Open Source Forecasting in Python: A Survey of Tools, Trends, and Trade-offs'
+description: Time series forecasting has become a core component of data-driven decision-making,
+  and the Python ecosystem now offers a rapidly expanding range of specialized tools
+  to support this need. In this session, a comprehensive review will be presented
+  of open-source Python forecasting packages and their technical capabilities, governance
+  models, openness vs. gated designs (including foundation models), and the practical
+  trade-offs that influence tool selection and adoption.
+speakers: Anirban Ray and Franz Király
+discussant: Christoph Bergmeir
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Open Source Forecasting in Python: A Survey of Tools, Trends, and Trade-offs
+
+### June 26, 04:15 PM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+As time series forecasting becomes increasingly central to data-driven decision-making across industries, the Python ecosystem has seen rapid growth in tools tailored to this task.
+
+This talk presents a comprehensive review of the current landscape of open-source forecasting packages in Python, covering frameworks, toolboxes, and few-model-packages.
+
+We will explore not just the technical capabilities - such as model variety, composability, unified interfaces, performance, scalability, and ease of use - but also the governance and openness of these tools.
+
+Attendees will gain insight into how openly governed community projects compare with corporate-backed initiatives, and how the availability (or restriction) of pretrained models, APIs, and infrastructure influences adoption and innovation. The talk also critically examines the trend of gated forecasting models, where core capabilities are locked behind APIs or proprietary layers, which is seeing an especial proliferation around so-called &quot;foundation models&quot;, versus fully open-source implementations of the same technologies.
+
+By the end of the session, participants will leave with a nuanced understanding of the strengths, trade-offs, and pitfalls in the current Python forecasting ecosystem, and practical guidance for selecting tools aligned with their organizational values and technical requirements.
+
+{{< video https://www.youtube.com/watch?v=LvK6sGdVtoE >}}
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```

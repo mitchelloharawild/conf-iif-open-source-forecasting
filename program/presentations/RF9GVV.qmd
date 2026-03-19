@@ -1,0 +1,38 @@
+---
+pagetitle: 'IIF OSF 2025: Context-Aided Forecasting: Progress So Far and Next Big
+  Challenges'
+date: 2025-06-27 14:20:00
+time: 02:20 PM
+title: 'Context-Aided Forecasting: Progress So Far and Next Big Challenges'
+description: Classical numerical forecasting models are being extended by incorporating
+  rich natural-language context to better capture the information human forecasters
+  routinely use. In this session, key topics will be the CiK benchmark for context-aided
+  forecasting, the Region-of-Interest CRPS scoring rule, the evaluation and prompting
+  of LLM-based forecasters (including bootstrapping and in-context learning), community
+  efforts and hybrid TSF/LLM methods, and future challenges around interactive, agentic
+  forecasting systems.
+speakers: Arjun Ashok
+discussant: Joaquin Amat Rodrigo
+---
+
+::: {#sponsors_banner .g-col-12 .title}
+# Context-Aided Forecasting: Progress So Far and Next Big Challenges
+
+### June 27, 02:20 PM
+:::
+
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
+
+Classical and modern forecasting models based on numerical data have seen widespread success in a range of applications. While historical numerical data and engineered covariates provide a start, they fail to convey the complete context for reliable and accurate predictions. Human forecasters frequently rely on additional information, such as background knowledge and constraints, which can flexibly be communicated through natural language. My talk will be on this setting of “context-aided forecasting”, where the goal is to produce statistical forecasts by incorporating all relevant context in natural language. I will first discuss our efforts on building CiK (short for “Context is Key&quot;), a forecasting benchmark that pairs numerical data with diverse types of carefully crafted textual context, with a strict requirement for models to integrate both modalities to produce accurate forecasts. I will discuss the Region-of-Interest CRPS, a proper scoring rule we propose, which prioritizes context-sensitive windows and accounts for constraint satisfaction. We evaluate a range of approaches on CiK, including statistical models, time series foundation models, and LLM-based forecasters, and propose a simple yet effective LLM prompting method that outperforms all other tested methods on our benchmark. Our experiments demonstrate surprising performance when using LLM-based forecasting models and also reveal some of their critical shortcomings, especially with respect to efficiency. I will also present new results on the benchmark, including simple methods that improve the zero-shot performance of LLMs through forecast-bootstrapping and in-context learning. Next, I will discuss other efforts from the community on benchmarks and methods for context-aided forecasting, and expand on our ongoing work on hybrid methods combining time series foundation models and LLMs for accurate and efficient context-aided forecasting. Finally, I will discuss the next big challenges in this space, centering around building interactive, agentic systems for forecasting and analysis and their potential in democratizing powerful forecasting tools, making them significantly more accurate and accessible.
+
+{{< video https://www.youtube.com/watch?v=fISJ5xCz-oI >}}
+
+:::
+
+```{=html}
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
+```
