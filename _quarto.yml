@@ -22,7 +22,7 @@ website:
           - text: Travel tips
             href: about/travel-tips.qmd
           - text: Organizing committee
-            href: about/organizers.qmd
+            href: about/committee.qmd
           - text: Sponsors
             href: about/sponsors/
       - text: Schedule
