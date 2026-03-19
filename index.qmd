@@ -6,10 +6,10 @@ format:
       - js/countdown.js
       
 listing:
-  - id: countdown
-    template: countdown.ejs
-    contents: 
-      - datetime: 2025-06-25T19:00:00.000+08:00
+  # - id: countdown
+  #   template: countdown.ejs
+  #   contents: 
+  #     - datetime: 2025-06-25T19:00:00.000+08:00
   - id: sponsors
     template: about/sponsors/sponsors.ejs
     contents: about/sponsors/sponsors.yml
@@ -24,9 +24,10 @@ listing:
 #### Venue: Beihang University, Haidian District, Beijing, China
 :::
 
-
+<!-- 
 ::: {#countdown .g-col-12}
 :::
+ -->
 
 ::: {.g-col-6 .text_block}
 ### About the workshop
