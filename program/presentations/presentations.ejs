@@ -1,18 +1,25 @@
-<ul class="quarto-listing quarto-listing-default">
+<div class="list quarto-listing-default">
 <% for (const item of items) { %>
-<li class="listing-item">
-  <a href="<%- item.path %>">
-    <div class="listing-title"><%- item.title %></div>
-  </a>
-  <div class="listing-meta">
-    <span class="listing-date"><%- item.date %></span>
-    <span class="listing-time"><%- item.time %></span>
-  </div>
-  <div class="listing-speakers">Speaker: <%- item.speakers %></div>
-  <div class="listing-discussant">Discussant: <%- item.discussant %></div>
-  <% if (item.description) { %>
-  <div class="listing-description"><%- item.description %></div>
-  <% } %>
-</li>
+<div class="quarto-post" <%= metadataAttrs(item) %>>
+<div class="metadata">
+<a href="<%- item.path %>" class="no-external">
+<% if (item.date || item.time) { %>
+<div class="listing-date"><% if (item.date) { %><%- item.date %><% } %><% if (item.time) { %> <%- item.time %><% } %></div>
 <% } %>
-</ul>
+<% if (item.speakers) { %>
+<div class="listing-speakers">Speaker: <%- item.speakers %></div>
+<% } %>
+<% if (item.discussant) { %>
+<div class="listing-discussant">Discussant: <%- item.discussant %></div>
+<% } %>
+</a>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title"><a href="<%- item.path %>" class="no-external listing-title"><%- item.title %></a></h3>
+<% if (item.description) { %>
+<div class="listing-description"><a href="<%- item.path %>" class="no-external"><%- item.description %></a></div>
+<% } %>
+</div>
+</div>
+<% } %>
+</div>

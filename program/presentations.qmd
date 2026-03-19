@@ -5,7 +5,7 @@ listing:
     - "presentations/*.qmd"
   type: default
   sort: "date"
-  template: presentations/presentations.ejs.md
+  template: presentations/presentations.ejs
   fields: [title, date, time, speakers, discussant, description]
 ---
 
