@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Travel Support – Workshop on Open Source Forecasting</title>
+<title>Presentations – Workshop on Open Source Forecasting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../img/clock.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -41,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-99e4d24da6127f7f3688d1c481c8374a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-826aebfa0292386fb9501820ef4ce55b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,7 +71,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-time','listing-speakerlist','listing-room','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -112,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Travel tips</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../about/committee.html">
+    <a class="dropdown-item" href="../about/organizers.qmd">
  <span class="dropdown-text">Organizing committee</span></a>
   </li>  
         <li>
@@ -122,8 +182,8 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../program/presentations.html"> 
-<span class="menu-text">Presentations</span></a>
+    <a class="nav-link" href="../program/schedule/"> 
+<span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../program/participants/"> 
@@ -153,22 +213,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="grid">
-<div id="about_banner" class="g-col-12 title">
-<section id="travel-support" class="level1">
-<h1>Travel Support</h1>
-</section>
-</div>
-<section id="scholarships" class="level3 g-col-6 text_block">
-<h3 data-anchor-id="scholarships">Scholarships</h3>
-<p>Travel support grants are available to invitees from low-SES backgrounds (such as middle-lower income countries) and early-career forecasters (ECFs). The value of the scholarship ranges from US$500 - US$1,000, and they are available on a limited basis.</p>
-<p>Additional information about these grants can be found in your invitation email.</p>
-<p>These grants are made available with thanks to the generous support of our <a href="../about/sponsors">event sponsors</a>.</p>
-</section>
-<div class="g-col-6 img_margin">
-<p><img src="../img/jon-tyson-FlHdnPO6dlw-unsplash.jpg" class="img_block img-fluid" style="width:100.0%"></p>
-</div>
-</div>
+
 
 
 
@@ -580,7 +625,283 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-</div> <!-- /content -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1750892700000" data-listing-file-modified-sort="1773877880020" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/ZGSXWC.html" class="no-external">25 years of open source forecasting software</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/ZGSXWC.html" class="no-external">
+<p>Open source forecasting software has evolved from a few basic R functions to a rich ecosystem of R, Python, Julia, and C/C++ implementations of established models. In this session, the historical development of these tools will be reviewed and key gaps and areas requiring further attention will be highlighted.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/ZGSXWC.html" class="no-external">
+<div class="metadata-value listing-time">
+09:05 AM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1750895100000" data-listing-file-modified-sort="1773877907898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/XSNGST.html" class="no-external">Designing extensible forecasting frameworks</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/XSNGST.html" class="no-external">
+<p>A well-designed interface is crucial for making statistical forecasting software easy to learn and use, particularly when defining a cohesive design language for the forecasting workflow. In this session, the design decisions behind the fable forecasting framework will be examined, and the extensibility of workflow elements such as models, accuracy metrics, and forecasting techniques will be discussed.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/XSNGST.html" class="no-external">
+<div class="metadata-value listing-time">
+09:45 AM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1750899300000" data-listing-file-modified-sort="1773877990848" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/NUMQUA.html" class="no-external">FoReco: From foundations to frontiers</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/NUMQUA.html" class="no-external">
+<p>Forecast reconciliation is presented as a solution to the inconsistency problems that arise when independently generating multiple time series forecasts across different aggregation levels. The session topics will be focused on how the FoReco R package implements classical and modern reconciliation methods (including hierarchical, grouped, temporal, cross-temporal, non-negative, and probabilistic reconciliation under various constraints), along with future extensions such as standardized interfaces, machine learning-based reconciliation, coherent forecast combination, and a forthcoming Python implementation.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/NUMQUA.html" class="no-external">
+<div class="metadata-value listing-time">
+10:55 AM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1750901700000" data-listing-file-modified-sort="1773878007915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/JDZ3QV.html" class="no-external">Probabilistic forecast reconciliation with bayesRecon</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/JDZ3QV.html" class="no-external">
+<p>Forecasts in hierarchical time series often violate aggregation constraints, motivating probabilistic reconciliation methods and software solutions. In this session, the bayesRecon (R) and bayesreconpy (Python) packages are introduced and demonstrated, and their probabilistic reconciliation approach, support for multiple forecast types (Gaussian, non-Gaussian, discrete) and mixed hierarchies, unified cross-language interface, and licensing are discussed.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/JDZ3QV.html" class="no-external">
+<div class="metadata-value listing-time">
+11:35 AM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1750909500000" data-listing-file-modified-sort="1773878459812" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/JZMB9M.html" class="no-external">Forecasting smoothly with smooth() package</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/JZMB9M.html" class="no-external">
+<p>ADAM (Augmented Dynamic Adaptive Model) is a flexible, R-implemented forecasting framework that unifies and extends ARIMA and ETS methods to handle multiple data structures, distributions, and modelling scenarios. In this session, key topics will be covered including the use of diverse distributions and estimation strategies, the production of flexible forecasts and prediction intervals, and the application of ADAM’s tools for model tuning, selection, diagnostics, outlier treatment, and handling of missing data.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/JZMB9M.html" class="no-external">
+<div class="metadata-value listing-time">
+01:45 PM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1750911900000" data-listing-file-modified-sort="1773878624751" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/3MHXG8.html" class="no-external">Integrating Smooth Capabilities into Python</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/3MHXG8.html" class="no-external">
+<p>The smooth package’s Augmented Dynamic Adaptive Model (ADAM) provides a unified state-space framework that extends classical time series models like ETS, ARIMA, and regression, originally developed in R and now motivating a native Python implementation. In this session, the engineering details of the Python implementation will be presented, including the C++-backed architecture, the refactoring into an idiomatic object-oriented Python API, and the key engineering lessons for cross-language development and use of Large Language Models to accelerate such efforts.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/3MHXG8.html" class="no-external">
+<div class="metadata-value listing-time">
+02:25 PM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1750916100000" data-listing-file-modified-sort="1773878926275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/LNK989.html" class="no-external">bsvars.org design concept: R packages for Predictive Analyses using Bayesian Structural Vector Autoregressions</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/LNK989.html" class="no-external">
+<p>bsvars.org is a family of R packages that provide a fast, user-friendly framework for Bayesian Structural Vector Autoregression analysis in macroeconomics and finance. In the session, key topics will be covered including the use of bsvars and bsvarSIGNs for structural and predictive analysis, the implementation of Bayesian estimation and related tools (forecasting, variance decompositions, impulse responses, historical decompositions), and the challenges and design choices in developing C++-backed R packages for diverse users.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/LNK989.html" class="no-external">
+<div class="metadata-value listing-time">
+03:35 PM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1750918500000" data-listing-file-modified-sort="1773878827196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/ZBQWPT.html" class="no-external">Open Source Forecasting in Python: A Survey of Tools, Trends, and Trade-offs</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/ZBQWPT.html" class="no-external">
+<p>Time series forecasting has become a core component of data-driven decision-making, and the Python ecosystem now offers a rapidly expanding range of specialized tools to support this need. In this session, a comprehensive review will be presented of open-source Python forecasting packages and their technical capabilities, governance models, openness vs.&nbsp;gated designs (including foundation models), and the practical trade-offs that influence tool selection and adoption.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/ZBQWPT.html" class="no-external">
+<div class="metadata-value listing-time">
+04:15 PM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1750978800000" data-listing-file-modified-sort="1773878888884" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/CWFQEV.html" class="no-external">Forecasting 2.0: A Framework for Near-Optimal Time Series Forecasting and Inference via Pre-Trained Models</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/CWFQEV.html" class="no-external">
+<p>A new open-source framework for time series modeling is introduced that uses neural networks trained on simulated data to deliver near-optimal forecasting and inference, outperforming traditional models and complex neural architectures while remaining accessible in R and Python. In the session, the underlying “grammar” for optimal time series model design, the use of pre-trained neural estimators as drop-in replacements for classical methods, and the extensibility of the framework to non-Gaussian, nonlinear, censored, and time-varying scenarios will be discussed.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/CWFQEV.html" class="no-external">
+<div class="metadata-value listing-time">
+09:00 AM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1750981200000" data-listing-file-modified-sort="1773878928137" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/EGUPLL.html" class="no-external">The aeon toolkit for time series machine learning</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/EGUPLL.html" class="no-external">
+<p>aeon is an open source Python toolkit for time series machine learning, developed by a diverse research-focused team and now expanding its capabilities in forecasting. In this session, an overview of aeon and its newly redesigned forecasting module will be presented, and future development directions and community feedback on the forecasting roadmap will be invited.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/EGUPLL.html" class="no-external">
+<div class="metadata-value listing-time">
+09:40 AM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1750985400000" data-listing-file-modified-sort="1773878959213" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/7CALFF.html" class="no-external">LLMs Meet Time Series Foundation Models: Are We Ready for Forecasting Agents?</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/7CALFF.html" class="no-external">
+<p>AI agents are rapidly reshaping many AI applications, but their potential for time series forecasting is still underexplored. In this session, the core concepts of AI agents and their architectures will be revisited, their evolution with foundation models will be traced, and the unique challenges and opportunities of applying agent-based design to forecasting within the open-source ecosystem will be examined.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/7CALFF.html" class="no-external">
+<div class="metadata-value listing-time">
+10:50 AM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1750987800000" data-listing-file-modified-sort="1773878997936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/DDCTP7.html" class="no-external">Deep Time Series Forecasting: Tools and Open Challenges</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/DDCTP7.html" class="no-external">
+<p>Deep learning has recently shown promise for time series forecasting, raising questions about when it truly outperforms traditional statistical methods. In this session, recent advances in deep time series models will be reviewed, the open-source libraries TSLib and OpenLTM will be introduced, and future research directions in deep learning-based time series forecasting will be discussed.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/DDCTP7.html" class="no-external">
+<div class="metadata-value listing-time">
+11:30 AM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1750995600000" data-listing-file-modified-sort="1773877226336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="325">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/SQNDZQ.html" class="no-external">Hierarchical Forecast Reconciliation on Networks: A Network Flow Optimization Formulation</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/SQNDZQ.html" class="no-external">
+<p>Hierarchical forecasting often fails to guarantee coherence across aggregation levels (such as state, district, and city), motivating reconciliation methods like FlowRec that reformulate the problem as a network flow optimization to handle general network structures efficiently. In this session, rigorous complexity results for reconciliation under various loss functions, the FlowRec algorithm’s computational and structural advantages over MinT (including dynamic, localized, and approximate updates), and empirical evidence of its runtime, memory, and accuracy improvements will be presented.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/SQNDZQ.html" class="no-external">
+<div class="metadata-value listing-time">
+01:40 PM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1750998000000" data-listing-file-modified-sort="1773879070555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="335">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/RF9GVV.html" class="no-external">Context-Aided Forecasting: Progress So Far and Next Big Challenges</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/RF9GVV.html" class="no-external">
+<p>Classical numerical forecasting models are being extended by incorporating rich natural-language context to better capture the information human forecasters routinely use. In this session, key topics will be the CiK benchmark for context-aided forecasting, the Region-of-Interest CRPS scoring rule, the evaluation and prompting of LLM-based forecasters (including bootstrapping and in-context learning), community efforts and hybrid TSF/LLM methods, and future challenges around interactive, agentic forecasting systems.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/RF9GVV.html" class="no-external">
+<div class="metadata-value listing-time">
+02:20 PM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-listing-date-sort="1751002200000" data-listing-file-modified-sort="1773879079962" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/8ZEM93.html" class="no-external">Durbyn.jl: A Julia Framework for Time Series Forecasting</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/8ZEM93.html" class="no-external">
+<p>Durbyn.jl is a lightweight, fully Julia-native framework for time series forecasting that balances clarity with computational power for researchers, educators, and practitioners. In the session, its modular architecture, rich suite of classical models, and built-in statistical tools will be discussed and demonstrated.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/8ZEM93.html" class="no-external">
+<div class="metadata-value listing-time">
+03:30 PM
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-listing-date-sort="1751004600000" data-listing-file-modified-sort="1773879786067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/presentations/SXU8ZN.html" class="no-external">A Look Under the Hood of StatsForecast</a>
+</h3>
+<div class="delink listing-description"><a href="../program/presentations/SXU8ZN.html" class="no-external">
+<p>StatsForecast is a widely used open-source Python library for statistical and econometric forecasting, originally developed as a Python implementation of models from the forecast R package and now recognized as a key tool in the field. In this session, the architecture and performance of StatsForecast will be examined, the implementations of major model families (including ARIMA, ETS, Theta, MSTL, baseline, and sparse/intermittent series models) will be explored, and planned future features and models will be discussed.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../program/presentations/SXU8ZN.html" class="no-external">
+<div class="metadata-value listing-time">
+04:10 PM
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">

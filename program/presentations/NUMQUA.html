@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-06-26">
+<meta name="description" content="Forecast reconciliation is presented as a solution to the inconsistency problems that arise when independently generating multiple time series forecasts across different aggregation levels. The session topics will be focused on how the FoReco R package implements classical and modern reconciliation methods (including hierarchical, grouped, temporal, cross-temporal, non-negative, and probabilistic reconciliation under various constraints), along with future extensions such as standardized interfaces, machine learning-based reconciliation, coherent forecast combination, and a forthcoming Python implementation.">
 
-<title>Key Dates – Workshop on Open Source Forecasting</title>
+<title>IIF OSF 2025: FoReco: From foundations to frontiers – Workshop on Open Source Forecasting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../img/clock.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -71,65 +71,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-keydates .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-activity',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-date","listing-activity"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-keydates'] = new List('listing-keydates', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -210,82 +152,54 @@ window.Quarto = {
 <!-- margin-sidebar -->
 <!-- main -->
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">FoReco: From foundations to frontiers</h1>
+</div>
+
+<div>
+  <div class="description">
+    Forecast reconciliation is presented as a solution to the inconsistency problems that arise when independently generating multiple time series forecasts across different aggregation levels. The session topics will be focused on how the FoReco R package implements classical and modern reconciliation methods (including hierarchical, grouped, temporal, cross-temporal, non-negative, and probabilistic reconciliation under various constraints), along with future extensions such as standardized interfaces, machine learning-based reconciliation, coherent forecast combination, and a forthcoming Python implementation.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
-<div class="grid">
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 26, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <div id="sponsors_banner" class="g-col-12 title">
-<section id="important-dates" class="level1">
-<h1>Important Dates</h1>
+<section id="foreco-from-foundations-to-frontiers" class="level1">
+<h1>FoReco: From foundations to frontiers</h1>
+<section id="june-26-1055-am" class="level3">
+<h3 data-anchor-id="june-26-1055-am">June 26, 10:55 AM</h3>
+</section>
 </section>
 </div>
-<div class="g-col-12" style="margin-left: 2%;">
-<p>The important dates are highlighted below.</p>
+<div class="g-col-12 full_text_block" style="min-width: 640px; max-width:1080px; margin: 20px auto">
+<p>In many forecasting applications, producing multiple time series forecasts across different aggregation levels (such as regions, product categories, or time scales) is both common and necessary. However, independently generated forecasts often fail to respect the underlying constraints linking these series, leading to inconsistencies that can compromise decision-making analyses. Forecast reconciliation addresses this challenge, while preserving or even improving forecast accuracy. FoReco is a dedicated open-source R package that systematically implements forecast reconciliation approaches, providing robust tools for obtaining coherent forecasts in a multivariate setting. It supports hierarchical, grouped, and general linearly constrained time series, and implements both classical and modern reconciliation approaches, including bottom-up, top-down, middle-out, and optimal combination methods. Its main features include full support for cross-sectional, temporal, and cross-temporal reconciliation, availability of both projection and structural formulations, and a wide range of flexible covariance matrices based on sparse structures. Additional features include methods for non-negative reconciliation, reconciliation under immutable constraints, and both point and probabilistic forecast reconciliation using parametric or non-parametric approaches.</p>
+<p>In conclusion, future development aim to expand both its methodological scope and practical usability. A central objective is to build a broader family of packages dedicated to forecast combination and reconciliation, unified by standardized input-output interfaces. Notable forthcoming additions include support for machine learning-based reconciliation methods and coherent forecast combination, the latter already available in the R package FoCo2. Furthermore, a Python implementation is currently in development to enhance accessibility and integration with modern data science workflows.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/vEGdoao_ygc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
-<div id="listing-keydates" class="g-col-6 quarto-listing quarto-listing-container-custom">
-<div class="schedule_container">
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Mar 28, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Invitations sent</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>May 12, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Program published</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Jun 25, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Welcome reception dinner</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Jun 26, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Workshop day 1</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Jun 27, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Workshop day 2</p>
-                </div>
-                
-              </div>
-        
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="g-col-6 img_margin">
-<p><img src="../../img/hanson-lu-_8EFj6ISA08-unsplash.jpg" class="img_block img-fluid" style="width:100.0%"></p>
-</div>
-<div>
-
-</div>
-</div>
-
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
 
 
 

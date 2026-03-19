@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Key Dates – Workshop on Open Source Forecasting</title>
+<title>session_template – Workshop on Open Source Forecasting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../img/clock.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-99e4d24da6127f7f3688d1c481c8374a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/clock.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-99e4d24da6127f7f3688d1c481c8374a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,65 +69,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-keydates .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-activity',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-date","listing-activity"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-keydates'] = new List('listing-keydates', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -140,11 +80,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../img/iif.png" alt="" class="navbar-logo light-content">
-    <img src="../../img/iif.png" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/iif.png" alt="" class="navbar-logo light-content">
+    <img src="../img/iif.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Workshop on Open Source Forecasting</span>
     </a>
   </div>
@@ -155,7 +95,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -164,37 +104,37 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../about/about.html">
+    <a class="dropdown-item" href="../about/about.html">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/travel-tips.html">
+    <a class="dropdown-item" href="../about/travel-tips.html">
  <span class="dropdown-text">Travel tips</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/committee.html">
+    <a class="dropdown-item" href="../about/committee.html">
  <span class="dropdown-text">Organizing committee</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/sponsors/">
+    <a class="dropdown-item" href="../about/sponsors/">
  <span class="dropdown-text">Sponsors</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../program/presentations.html"> 
+    <a class="nav-link" href="../program/presentations.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../program/participants/"> 
+    <a class="nav-link" href="../program/participants/"> 
 <span class="menu-text">Participants</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../participation/coc.html"> 
+    <a class="nav-link" href="../participation/coc.html"> 
 <span class="menu-text">Code of conduct</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -213,79 +153,39 @@ window.Quarto = {
 
 
 
-<div class="grid">
+<div class="grid" style="width: 100vw;  transform: translateX(-20%);">
 <div id="sponsors_banner" class="g-col-12 title">
-<section id="important-dates" class="level1">
-<h1>Important Dates</h1>
+<section id="title" class="level1">
+<h1>{{title}}</h1>
+<section id="time" class="level3">
+<h3 data-anchor-id="time">{{time}}</h3>
+</section>
 </section>
 </div>
-<div class="g-col-12" style="margin-left: 2%;">
-<p>The important dates are highlighted below.</p>
+<div class="g-col-12 full_text_block" style="min-width: 640px; max-width:1080px; margin: 0 auto">
+<p>{{abstract}}</p>
+<p>{{#speakers}} ::: speaker</p>
+<div class="speaker-header">
+<p><img src="{{avatar_url}}.png" class="img-fluid"></p>
 </div>
-<div id="listing-keydates" class="g-col-6 quarto-listing quarto-listing-container-custom">
-<div class="schedule_container">
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Mar 28, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Invitations sent</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>May 12, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Program published</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Jun 25, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Welcome reception dinner</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Jun 26, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Workshop day 1</p>
-                </div>
-                
-              </div>
-        
-                            <div class="schedule_row">
-                <div class="schedule_column_time">
-                  <p><strong>Jun 27, 2025</strong></p>
-                </div>
-                <div class="schedule_column_talk">
-                  <p>Workshop day 2</p>
-                </div>
-                
-              </div>
-        
+<div class="speaker-name">
+<p>{{name}}</p>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
+<div class="speaker-bio">
+<p>{{biography}}</p>
 </div>
-<div class="g-col-6 img_margin">
-<p><img src="../../img/hanson-lu-_8EFj6ISA08-unsplash.jpg" class="img_block img-fluid" style="width:100.0%"></p>
+</div>
+<p>{{/speakers}}</p>
 </div>
 <div>
 
 </div>
-</div>
-
+<p>::::::</p>
+<style>
+#title-block-header {
+display: none !important;
+}
+</style>
 
 
 
