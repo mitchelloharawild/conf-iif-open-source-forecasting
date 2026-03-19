@@ -2,14 +2,13 @@
 {{yml}}
 ---
 
-:::::: {.grid style="width: 100vw;  transform: translateX(-20%);"}
 ::: {#sponsors_banner .g-col-12 .title}
 # {{title}}
 
 ### {{time}}
 :::
 
-::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 0 auto"}
+::: {.g-col-12 .full_text_block style="min-width: 640px; max-width:1080px; margin: 20px auto"}
 
 {{abstract}}
 
@@ -35,10 +34,6 @@
 
 :::
 
-<div>
-
-</div>
-::::::
 
 ```{=html}
 <style>
